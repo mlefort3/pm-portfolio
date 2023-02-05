@@ -140,7 +140,7 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none'
             }}
           >
-            Des hommes féministes
+            Maxence Lefort - Product Manager
           </Typography>
           <Box sx={{
             flexGrow: 1, display: { xs: 'none', md: 'flex' }}}>
