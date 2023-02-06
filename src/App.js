@@ -23,7 +23,7 @@ function App() {
       <Route exact path="/competences" element={<WorkInProgress/>}/>
       <Route exact path="/experiences" element={<WorkInProgress/>}/>
       <Route exact path="/formations" element={<WorkInProgress/>}/>
-      <Route exact path="/apropos" element={<About/>}/>
+      <Route exact path="/apropos" element={<WorkInProgress/>}/>
       <Route exact path="/*" element={<NotFound/>}/>
     </Routes>
     </Container>
