@@ -50,7 +50,7 @@ const Home = () => {
           <Grid item xs={12} md={3}>
             <Card className="Homecard" sx={{ maxWidth: 445, border: 1, borderColor:"secondary", borderRadius:"5%", boxShadow: 3, '&:hover': {
        boxShadow: "10"}}}>
-              <CardActionArea component={Link} to="/sinformer">
+              <CardActionArea component={Link} to="/experiences/">
                 <CardMedia
                   component="img"
                   height="300"
@@ -72,7 +72,7 @@ const Home = () => {
           <Grid item xs={12} md={3} >
           <Card className="Homecard" sx={{ maxWidth: 445, border: 1, borderColor:"secondary", borderRadius:"5%", boxShadow: 3, '&:hover': {
             boxShadow: "10"}}}>
-              <CardActionArea component={Link} to="/sengager">
+              <CardActionArea component={Link} to="/competences/">
                 <CardMedia
                   component="img"
                   height="300"
@@ -94,7 +94,7 @@ const Home = () => {
             <Grid item xs={12} md={3} >
             <Card className="Homecard" sx={{ maxWidth: 445, border: 1, borderColor:"secondary", borderRadius:"5%", boxShadow: 3, '&:hover': {
               boxShadow: "10"}}}>
-                <CardActionArea component={Link} to="/sengager">
+                <CardActionArea component={Link} to="/formations/">
                   <CardMedia
                     component="img"
                     height="300"

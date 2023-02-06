@@ -19,6 +19,8 @@ import logo from './../together.png';
 import profile from './../profile.png';
 import validateToken from './../requests/ValidateToken';
 import LogoutRequest from './../requests/LogoutRequest';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 const pages = ['Accueil', 'Mes expériences', 'Mes compétences', 'Mes formations', 'À propos'];
 
@@ -46,14 +48,14 @@ const ResponsiveAppBar = () => {
   const navigate = useNavigate();
 
   const getNavPage = (page) => {
-    if (page==="S'informer") {
-      return "/sinformer/";
+    if (page==="Mes expériences") {
+      return "/experiences/";
     }
-    if (page==="S'engager") {
-      return "/sengager";
+    if (page==="Mes compétences") {
+      return "/competences/";
     }
-    if (page==="À propos") {
-      return "/apropos";
+    if (page==="Mes formations") {
+      return "/formations/";
     }
     else {
       return "/";
@@ -154,6 +156,19 @@ const ResponsiveAppBar = () => {
               </Button>
             ))}
           </Box>
+
+          <Tooltip title="Mon CV">
+            <IconButton sx={{mr:2,backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://cloud.leviia.com/s/ZnIy.5fYHRqNwMtXXqfQ">
+                <DescriptionIcon/>
+            </IconButton>
+          </Tooltip>
+
+          <Tooltip title="Mon profil LinkedIn">
+            <IconButton sx={{backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://www.linkedin.com/in/maxence-lefort/">
+                <LinkedInIcon/>
+            </IconButton>
+          </Tooltip>
+
         </Toolbar>
       </Container>
     </AppBar>

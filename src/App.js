@@ -20,8 +20,9 @@ function App() {
     <Container disableGutters className="App">
     <Routes>
       <Route exact path="/" element={<Home/>}/>
-      <Route exact path="/sinformer" element={<WorkInProgress/>}/>
-      <Route exact path="/sengager" element={<WorkInProgress/>}/>
+      <Route exact path="/competences" element={<WorkInProgress/>}/>
+      <Route exact path="/experiences" element={<WorkInProgress/>}/>
+      <Route exact path="/formations" element={<WorkInProgress/>}/>
       <Route exact path="/apropos" element={<About/>}/>
       <Route exact path="/*" element={<NotFound/>}/>
     </Routes>
