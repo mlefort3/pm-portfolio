@@ -9,7 +9,6 @@ import learning from './../learning.png'
 import skills from './../skills.png'
 import {Link} from 'react-router-dom';
 import theme from './../theme';
-import {Link as LinkMUI} from "@mui/material";
 import { ThemeProvider } from '@mui/material';
 import CardContent from '@mui/material/CardContent';
 import Card from '@mui/material/Card';

@@ -8,17 +8,12 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AccountCircleTwoToneIcon from '@mui/icons-material/AccountCircleTwoTone';
 import { Link, useNavigate } from "react-router-dom";
 import theme from './../theme';
-import logo from './../together.png';
 import profile from './../profile.png';
-import validateToken from './../requests/ValidateToken';
-import LogoutRequest from './../requests/LogoutRequest';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import DescriptionIcon from '@mui/icons-material/Description';
 
@@ -26,24 +21,17 @@ const pages = ['Accueil', 'Mes expériences', 'Mes compétences', 'Mes formation
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
   // eslint-disable-next-line
   const [status, setStatus] = React.useState(0);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
 
   const navigate = useNavigate();
 
