@@ -20,11 +20,32 @@ export default function About() {
     <Grid container justifyContent="center" sx={{mt:5}}>
     <Grid item md={9} xs={12} sx={{mx:{xs:5}}}>
     <Paper>
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+    <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <AccordionSummary
+        expandIcon={<ExpandMoreIcon />}
+        aria-controls="panel1bh-content"
+        id="panel1bh-header"
+      >
+        <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
+          À propos de moi 👨🏻‍💻
+        </Typography>
+        <Typography sx={{ color: 'text.secondary' }}>Toutes les infos sur le développement et le fonctionnement de l'application.</Typography>
+      </AccordionSummary>
+      <AccordionDetails >
+        <Typography textAlign='justify'>
+          Je m'appelle Maxence, et je suis Product Manager depuis plus de 3 ans maintenant.
+          D'abord passé par PeopleDoc/UKG durant 2 ans et demi pour travailler sur des produits RH en SaaS,
+          j'ai ensuite rejoint La Ruche Qui Dit Oui en tant que Product Manager pour les produits B2B.
+          <br/>Malgré la courte durée de cette dernière expérience, j'y ai beaucoup appris !<br/><br/>
+          Je recherche maintenant une nouvelle expérience à partir de la mi-mai 2023.
+        </Typography>
+      </AccordionDetails>
+    </Accordion>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1bh-content"
-          id="panel1bh-header"
+          aria-controls="panel2bh-content"
+          id="panel2bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
             Informations sur l'application 🤓
@@ -32,42 +53,8 @@ export default function About() {
           <Typography sx={{ color: 'text.secondary' }}>Toutes les infos sur le développement et le fonctionnement de l'application.</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Information à venir.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1bh-content"
-          id="panel1bh-header"
-        >
-          <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
-            Pourquoi créer un compte ? 🤔
-          </Typography>
-          <Typography sx={{ color: 'text.secondary' }}>Tout ce que vous devez savoir sur la création de compte.</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Information à venir.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2bh-content"
-          id="panel2bh-header"
-        >
-          <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left", pr:5 }}>Comment sont gérées vos données ? 🗄</Typography>
-          <Typography sx={{ color: 'text.secondary' }}>
-            Le stockage des données de votre compte sur l'application.
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Information à venir.
+          <Typography textAlign='justify'>
+            L'application a été développée en React JS, avec la librairie Material UI. Elle est hébergée et déployée via Render.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -78,15 +65,17 @@ export default function About() {
           id="panel3bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
-            Comment nous contacter ? ✏️
+            Comment me contacter ? ✏️
           </Typography>
           <Typography sx={{ color: 'text.secondary' }}>
-            En cas de problèmes sur l'application ou pour proposer des améliorations.
+            Pour me proposer de nouvelles opportunités ou tout simplemenent échanger.
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Si vous rencontrez des soucis sur l'application ou si souhaitez transmettre des idées d'amélioration de l'application et de son contenu, merci de contacter <Link href="mailto:des.hommes.feministes@gmail.com">des.hommes.feministes@gmail.com</Link>.
+            Vous pouvez retrouver dans la barre de menu mes coordonnées présentes dans mon CV, mais également un lien vers mon profil LinkedIn.
+            Sinon, le plus simple reste mon addresse e-mail, qui est la suivante :&nbsp;
+            <Link href="mailto:maxence.lefort@posteo.net">maxence.lefort@posteo.net</Link>.
           </Typography>
         </AccordionDetails>
       </Accordion>

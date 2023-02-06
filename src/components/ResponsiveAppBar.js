@@ -57,6 +57,9 @@ const ResponsiveAppBar = () => {
     if (page==="Mes formations") {
       return "/formations/";
     }
+    if (page==="À propos") {
+      return "/apropos/";
+    }
     else {
       return "/";
     }
@@ -142,7 +145,7 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none'
             }}
           >
-            Maxence Lefort - Product Manager
+            Maxence Lefort - PM
           </Typography>
           <Box sx={{
             flexGrow: 1, display: { xs: 'none', md: 'flex' }}}>
@@ -158,7 +161,7 @@ const ResponsiveAppBar = () => {
           </Box>
 
           <Tooltip title="Mon CV">
-            <IconButton sx={{mr:2,backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://cloud.leviia.com/s/ZnIy.5fYHRqNwMtXXqfQ">
+            <IconButton sx={{mr:{xs:1,md:2},backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://cloud.leviia.com/s/ZnIy.5fYHRqNwMtXXqfQ">
                 <DescriptionIcon/>
             </IconButton>
           </Tooltip>
