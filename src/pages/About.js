@@ -54,7 +54,8 @@ export default function About() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography textAlign='justify'>
-            L'application a été développée en React JS, avec la librairie Material UI. Elle est hébergée et déployée via Render.
+            L'application a été développée en React JS, avec la librairie Material UI. Elle est déployée via Render.<br/>
+            Le code est hebergé sur mon compte GitHub à l'adresse suivante : <Link href="https://github.com/mlefort3/pm-portfolio">https://github.com/mlefort3/pm-portfolio</Link>. 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -72,7 +73,7 @@ export default function About() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography textAlign='justify'>
             Vous pouvez retrouver dans la barre de menu mes coordonnées présentes dans mon CV, mais également un lien vers mon profil LinkedIn.
             Sinon, le plus simple reste mon addresse e-mail, qui est la suivante :&nbsp;
             <Link href="mailto:maxence.lefort@posteo.net">maxence.lefort@posteo.net</Link>.
