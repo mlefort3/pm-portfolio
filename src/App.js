@@ -9,7 +9,6 @@ import Home from './pages/Home';
 import WorkInProgress from './pages/WorkInProgress';
 import Experiences from './pages/Experiences';
 import NotFound from './pages/NotFound';
-import "animate.css/animate.min.css";
 import theme from './theme';
 import './App.css';
 
