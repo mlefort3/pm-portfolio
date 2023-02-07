@@ -14,7 +14,6 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemIcon from '@mui/material/ListItemIcon';
-import CheckCircleOutlineIcon from '@mui/icons-material/Check';
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import WorkIcon from '@mui/icons-material/Work';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';

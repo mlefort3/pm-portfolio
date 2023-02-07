@@ -23,7 +23,7 @@
     "react-dom": "^18.1.0",
     "react-email-validator": "^1.0.2",
     "react-icons": "^4.3.1",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
     "react-token-auth": "^2.3.8",
@@ -65,5 +65,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "."
 }
