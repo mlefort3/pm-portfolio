@@ -57,6 +57,7 @@ const Home = () => {
                   height="300"
                   image={experience}
                   alt="green iguana"
+                  loading="lazy"
                 />
                 <CardContent>
                   <Typography gutterBottom variant={"h5"} component="div">
@@ -79,6 +80,7 @@ const Home = () => {
                   height="300"
                   image={skills}
                   alt="green iguana"
+                  loading="lazy"
                 />
                 <CardContent>
                   <Typography component="div" gutterBottom variant={"h5"}>
@@ -101,6 +103,7 @@ const Home = () => {
                     height="300"
                     image={learning}
                     alt="green iguana"
+                    loading="lazy"
                   />
                   <CardContent>
                     <Typography component="div" gutterBottom variant={"h5"}>
