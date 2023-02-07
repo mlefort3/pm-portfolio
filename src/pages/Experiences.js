@@ -24,7 +24,6 @@ export default function Experiences() {
 
   return (
     <div>
-    <ThemeProvider theme={theme}>
     <Grid container justifyContent="center" spacing="3">
     <Grid item md={9} xs={12} sx={{mx:{xs:5}}}>
     <Paper sx={{pt:6,px:6,mt:6,borderRadius:4}}>
@@ -239,7 +238,6 @@ export default function Experiences() {
     <Copyright/>
     </Grid>
     </Grid>
-    </ThemeProvider>
     </div>
   );
 }
