@@ -16,7 +16,7 @@ import theme from './theme';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
     <ThemeProvider theme={theme}>
     <ResponsiveAppBar/>
     <Container disableGutters className="App">
