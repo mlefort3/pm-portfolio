@@ -10,7 +10,6 @@ import WorkInProgress from './pages/WorkInProgress';
 import Experiences from './pages/Experiences';
 import NotFound from './pages/NotFound';
 import theme from './theme';
-import './App.css';
 
 function App() {
   return (
