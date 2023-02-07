@@ -16,6 +16,8 @@ import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material/';
 import Copyright from './../components/Copyright';
 import Divider from '@mui/material/Divider';
+import "animate.css/animate.min.css";
+
 
 const Home = () => {
     return (
@@ -44,6 +46,7 @@ const Home = () => {
             </Grid>
             </CardMedia>
           </Paper>
+
           <Grid container spacing={1} sx={{p:5}} justifyContent="space-evenly" alignItems="center">
 
           <Grid item xs={12} md={3}>
@@ -113,6 +116,7 @@ const Home = () => {
               </Grid>
 
           </Grid>
+
           <Paper className="Paper-Container" sx={{backgroundColor:"primary.main"}}>
           <Typography color="white" component={"h3"} variant={"h5"} gutterBottom sx={{textAlign:"center",py:2,fontWeight:'bold'}}>
             Quelques chiffres 🤓
