@@ -16,7 +16,6 @@ import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material/';
 import Copyright from './../components/Copyright';
 import Divider from '@mui/material/Divider';
-import "animate.css/animate.min.css";
 
 
 const Home = () => {

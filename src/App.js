@@ -9,19 +9,18 @@ import Home from './pages/Home';
 import WorkInProgress from './pages/WorkInProgress';
 import Experiences from './pages/Experiences';
 import NotFound from './pages/NotFound';
-import './App.css';
 import "animate.css/animate.min.css";
-
 import theme from './theme';
+import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter>
     <ThemeProvider theme={theme}>
     <ResponsiveAppBar/>
     <Container disableGutters className="App">
     <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route exact path="/" element={<Home/>}/>
       <Route exact path="/competences" element={<WorkInProgress/>}/>
       <Route exact path="/experienceswip" element={<Experiences/>}/>
       <Route exact path="/formations" element={<WorkInProgress/>}/>
