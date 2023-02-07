@@ -15,10 +15,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import DateRangeIcon from '@mui/icons-material/DateRange';
-import { ThemeProvider } from '@mui/material';
 import WorkIcon from '@mui/icons-material/Work';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import theme from './../theme';
 import "animate.css/animate.min.css";
 
 export default function Experiences() {
