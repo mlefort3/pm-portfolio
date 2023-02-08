@@ -18,7 +18,7 @@ export default function About() {
   return (
     <div>
     <Grid container justifyContent="center" sx={{mt:5}}>
-    <Grid item md={9} xs={12} sx={{mx:{xs:5}}}>
+    <Grid item md={9} xs={12} sx={{mx:{md:5}}}>
     <Paper>
     <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
       <AccordionSummary
@@ -29,7 +29,7 @@ export default function About() {
         <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
           À propos de moi 👨🏻‍💻
         </Typography>
-        <Typography sx={{ color: 'text.secondary' }}>Toutes les infos sur le développement et le fonctionnement de l'application.</Typography>
+        <Typography sx={{ color: 'text.secondary' }}>Description de mon profil et de mes objectifs.</Typography>
       </AccordionSummary>
       <AccordionDetails >
         <Typography textAlign='justify'>
@@ -55,7 +55,7 @@ export default function About() {
         <AccordionDetails>
           <Typography textAlign='justify'>
             L'application a été développée en React JS, avec la librairie Material UI. Elle est déployée via Render.<br/>
-            Le code est hebergé sur mon compte GitHub à l'adresse suivante : <Link href="https://github.com/mlefort3/pm-portfolio">https://github.com/mlefort3/pm-portfolio</Link>. 
+            Le code est hebergé sur mon compte GitHub à l'adresse suivante : <Link href="https://github.com/mlefort3/pm-portfolio">https://github.com/mlefort3/pm-portfolio</Link>.
           </Typography>
         </AccordionDetails>
       </Accordion>

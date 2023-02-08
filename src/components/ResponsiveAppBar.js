@@ -133,7 +133,7 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none'
             }}
           >
-            Maxence Lefort - PM
+            Maxence Lefort
           </Typography>
           <Box sx={{
             flexGrow: 1, display: { xs: 'none', md: 'flex' }}}>
