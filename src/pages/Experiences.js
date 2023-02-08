@@ -28,8 +28,8 @@ export default function Experiences() {
     <Paper sx={{pt:6,px:6,mt:6,borderRadius:4}}>
       <Grid item md={12} container direction="row" spacing={6}>
         <Grid item  md={4} sx={{justifyContent: 'center', alignItems:'center', width: '100%'}}>
-          <img src={computerorder} width='100%' alt="Travail en cours" loading="lazy"/>
-          <img src={logolrqdo} width='100%' alt="Travail en cours" loading="lazy"/>
+          <img src={computerorder} width='100%' alt="Travail en cours" />
+          <img src={logolrqdo} width='100%' alt="Travail en cours" />
         </Grid>
         <Grid item md={8}>
         <Typography color="#005151" component="h3" variant="h5" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
@@ -158,8 +158,8 @@ export default function Experiences() {
     <Grid item md={4} direction="column"
   justifyContent="center"
   alignItems="center" sx={{justifyContent: 'center', alignItems:'center', width: '100%'}}>
-      <img src={peopledoc} width='100%' alt="Travail en cours" loading="lazy"/>
-      <img src={peopledocukg} width='100%' alt="Travail en cours" loading="lazy"/>
+      <img src={peopledoc} width='100%' alt="Travail en cours"/>
+      <img src={peopledocukg} width='100%' alt="Travail en cours"/>
     </Grid>
     </Grid>
     </Paper>
@@ -173,8 +173,8 @@ export default function Experiences() {
     <Paper sx={{pt:6,px:6,mt:6,borderRadius:4}}>
       <Grid item md={12} container direction="row" spacing={6}>
         <Grid item  md={4} sx={{justifyContent: 'center', alignItems:'center', width: '100%'}}>
-          <img src={security} width='100%' alt="Travail en cours" loading="lazy"/>
-          <img src={bnpparibas} width='100%' alt="Travail en cours" loading="lazy"/>
+          <img src={security} width='100%' alt="Travail en cours" />
+          <img src={bnpparibas} width='100%' alt="Travail en cours" />
         </Grid>
         <Grid item md={8}>
         <Typography color="#005151" component="h3" variant="h5" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
