@@ -155,7 +155,7 @@ export default function Experiences() {
       </List>
     </Grid>
 
-    <Grid item md={4} direction="column"
+    <Grid item container md={4} direction="column"
   justifyContent="center"
   alignItems="center" sx={{justifyContent: 'center', alignItems:'center', width: '100%'}}>
       <img src={peopledoc} width='100%' alt="Travail en cours"/>
