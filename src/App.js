@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import WorkInProgress from './pages/WorkInProgress';
 import Experiences from './pages/Experiences';
+import Skills from './pages/Skills';
 import NotFound from './pages/NotFound';
 import theme from './theme';
 import "animate.css/animate.min.css";
@@ -20,7 +21,7 @@ function App() {
     <Container disableGutters className="App">
     <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route exact path="/competences" element={<WorkInProgress/>}/>
+      <Route exact path="/competences" element={<Skills/>}/>
       <Route exact path="/experiences" element={<Experiences/>}/>
       <Route exact path="/formations" element={<WorkInProgress/>}/>
       <Route exact path="/apropos" element={<About/>}/>

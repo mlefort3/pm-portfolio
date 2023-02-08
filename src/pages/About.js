@@ -75,7 +75,7 @@ export default function About() {
         <AccordionDetails>
           <Typography textAlign='justify'>
             Vous pouvez retrouver dans la barre de menu mes coordonnées présentes dans mon CV, mais également un lien vers mon profil LinkedIn.
-            Sinon, le plus simple reste mon addresse e-mail, qui est la suivante :&nbsp;
+            Sinon, le plus simple reste mon adresse e-mail, qui est la suivante :&nbsp;
             <Link href="mailto:maxence.lefort@posteo.net">maxence.lefort@posteo.net</Link>.
           </Typography>
         </AccordionDetails>
