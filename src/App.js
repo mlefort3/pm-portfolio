@@ -19,7 +19,7 @@ function App() {
     <ResponsiveAppBar/>
     <Container disableGutters className="App">
     <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route eaxct path="/" element={<Home/>}/>
       <Route exact path="/competences" element={<WorkInProgress/>}/>
       <Route exact path="/experiences" element={<Experiences/>}/>
       <Route exact path="/formations" element={<WorkInProgress/>}/>
