@@ -30,6 +30,11 @@ import { styled } from '@mui/material/styles';
 import tncy from './../tncy.png';
 import iaenancy from './../iaenancy.png';
 import polimi from './../polimi.png';
+import linkedin from './../linkedin.jpg';
+import mdp from './../mdp.jpg';
+import scrumleague from './../scrumleague.jpg';
+import udacity from './../udacity.jpg';
+import udemy from './../udemy.jpg';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
@@ -250,25 +255,167 @@ export default function Learning() {
       <Collapse in={expandedCourses} timeout="auto" unmountOnExit>
         <CardContent>
         <Grid item container direction='row' spacing={1} alignItems='center'>
+
         <Grid item md={3}>
         <div align='center'>
         <CardMedia
           component="img"
-          sx={{width:'75%'}}
-          image={tncy}
+          sx={{width:'75%',pt:2}}
+          image={linkedin}
           alt="green iguana"
           loading="lazy"
         />
         </div>
         </Grid>
         <Grid item md={9} container direction="column">
-        <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
-          Nom
+        <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
+          Advanced Product Marketing
         </Typography>
         <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
-          Texte
+          LinkedIn (Août 2022)
         </Typography>
         </Grid>
+
+        <Grid item md={3}>
+        <div align='center'>
+        <CardMedia
+          component="img"
+          sx={{width:'75%',pt:2}}
+          image={udacity}
+          alt="green iguana"
+          loading="lazy"
+        />
+        </div>
+        </Grid>
+        <Grid item md={9} container direction="column">
+        <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
+          Product Design
+        </Typography>
+        <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+          Udacity (Août 2022)
+        </Typography>
+        </Grid>
+
+        <Grid item md={3}>
+        <div align='center'>
+        <CardMedia
+          component="img"
+          sx={{width:'75%',pt:2}}
+          image={linkedin}
+          alt="green iguana"
+          loading="lazy"
+        />
+        </div>
+        </Grid>
+        <Grid item md={9} container direction="column">
+        <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
+          Product Management: Building a product strategy
+        </Typography>
+        <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+          LinkedIn (Août 2022)
+        </Typography>
+        </Grid>
+
+        <Grid item md={3}>
+        <div align='center'>
+        <CardMedia
+          component="img"
+          sx={{width:'75%',pt:2}}
+          image={mdp}
+          alt="green iguana"
+          loading="lazy"
+        />
+        </div>
+        </Grid>
+        <Grid item md={9} container direction="column">
+        <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
+          Product-led Certification
+        </Typography>
+        <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+          Mind The Product (Août 2022)
+        </Typography>
+        </Grid>
+
+        <Grid item md={3}>
+        <div align='center'>
+        <CardMedia
+          component="img"
+          sx={{width:'75%',pt:2}}
+          image={udacity}
+          alt="green iguana"
+          loading="lazy"
+        />
+        </div>
+        </Grid>
+        <Grid item md={9} container direction="column">
+        <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
+          Rapid prototyping (Août 2022)
+        </Typography>
+        <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+          Udacity
+        </Typography>
+        </Grid>
+
+        <Grid item md={3}>
+        <div align='center'>
+        <CardMedia
+          component="img"
+          sx={{width:'75%',pt:2}}
+          image={udemy}
+          alt="green iguana"
+          loading="lazy"
+        />
+        </div>
+        </Grid>
+        <Grid item md={9} container direction="column">
+        <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
+          The Lean Startup
+        </Typography>
+        <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+          Udemy (Octobre 2021)
+        </Typography>
+        </Grid>
+
+        <Grid item md={3}>
+        <div align='center'>
+        <CardMedia
+          component="img"
+          sx={{width:'75%',pt:2}}
+          image={udemy}
+          alt="green iguana"
+          loading="lazy"
+        />
+        </div>
+        </Grid>
+        <Grid item md={9} container direction="column">
+        <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
+          Advanced Product Management: Leadership & Communication
+        </Typography>
+        <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+          Udemy (Août 2021)
+        </Typography>
+        </Grid>
+
+        <Grid item md={3} >
+        <div align='center'>
+        <CardMedia
+          component="img"
+          sx={{width:'75%',pt:2}}
+          image={scrumleague}
+          alt="green iguana"
+          loading="lazy"
+        />
+        </div>
+        </Grid>
+        <Grid item md={9} container direction="column">
+        <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
+          International Certification Product Owner (icPO)
+        </Typography>
+        <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+          Scrum League (Mars 2021)
+        </Typography>
+        </Grid>
+
 
         </Grid>
         </CardContent>
