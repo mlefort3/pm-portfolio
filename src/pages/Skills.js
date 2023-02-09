@@ -45,9 +45,9 @@ export default function Experiences() {
   return (
     <div>
     <Grid container justifyContent="center">
-    <Grid item md={9} xs={12} sx={{mx:{xs:5}}}>
+    <Grid item md={9} xs={12} sx={{mx:{md:5}}}>
 
-    <Paper sx={{py:3,px:6,mt:6,borderRadius:4}} >
+    <Paper sx={{py:3,px:{xs:2,md:6},mt:6,borderRadius:4}} >
 
     <Typography color="#005151" component="h3" variant="h5" gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
       Compétences et outils
@@ -67,7 +67,7 @@ export default function Experiences() {
         <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
           Analyse de données utilisateurs
         </Typography>
-        <Typography sx={{ color: 'text.secondary' }}>Maîtrise d'un certain nombre d'outils d'analyse de données et connaissance du SQL.</Typography>
+        <Typography sx={{ color: 'text.secondary', overflowWrap: 'break-word', hyphens: 'auto' }}>Maîtrise d'un certain nombre d'outils d'analyse de données et connaissance du SQL.</Typography>
       </AccordionSummary>
       <AccordionDetails >
 
@@ -113,7 +113,7 @@ export default function Experiences() {
       </Grid>
       <Grid item>
       <CardContent>
-        <Typography align="left" variant="body2" color="text.secondary">
+        <Typography align="left" variant="body2" color="text.secondary" >
           Analyse de l'utilisation de la plateforme par les utilisateurs par le biais de 'heatmaps' et d'enregistrements vidéos des utilisations faites de l'interface.
         </Typography>
       </CardContent>
@@ -396,7 +396,7 @@ export default function Experiences() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
+          <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left", overflowWrap: 'break-word', hyphens: 'auto' }}>
             Phases de développement (Delivery)
           </Typography>
           <Typography sx={{ color: 'text.secondary' }}>Travail au quotidien avec l'équipe de développement lors des différentes phases.</Typography>
@@ -580,7 +580,7 @@ export default function Experiences() {
             aria-controls="panel4bh-content"
             id="panel4bh-header"
           >
-            <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
+            <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left", overflowWrap: 'break-word', hyphens: 'auto' }}>
               Réalisation de documentations
             </Typography>
             <Typography sx={{ color: 'text.secondary' }}>Travail au quotidien avec l'équipe de développement lors des différentes phases.</Typography>
@@ -591,7 +591,7 @@ export default function Experiences() {
 
 
           <Grid item container direction="column" justifyContent='space-between' md={4}>
-          <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+          <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between', overflowWrap: 'break-word', hyphens: 'auto'}}>
             <Grid item>
             <CardMedia
               component="img"
