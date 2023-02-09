@@ -55,7 +55,7 @@ export default function About() {
         <AccordionDetails>
           <Typography textAlign='justify'>
             L'application a été développée en React JS, avec la librairie Material UI. Elle est déployée via Render.<br/>
-            Le code est hebergé sur mon compte GitHub à l'adresse suivante : <Link href="https://github.com/mlefort3/pm-portfolio">https://github.com/mlefort3/pm-portfolio</Link>.
+            Le code est hébergé sur mon compte GitHub à l'adresse suivante : <Link href="https://github.com/mlefort3/pm-portfolio">https://github.com/mlefort3/pm-portfolio</Link>.
           </Typography>
         </AccordionDetails>
       </Accordion>

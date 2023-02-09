@@ -88,6 +88,7 @@ const ResponsiveAppBar = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
+              onClose={handleCloseNavMenu}
               color="inherit"
             >
               <MenuIcon />
@@ -112,7 +113,8 @@ const ResponsiveAppBar = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={() => navigate(`${getNavPage(page)}`)}>
+                <MenuItem key={page} anchorEl={anchorElNav} component={Link} to={getNavPage(page)}
+                onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -122,7 +124,7 @@ const ResponsiveAppBar = () => {
             variant="h6"
             noWrap
             component="a"
-            href=""
+            href="/"
             color='secondary'
             sx={{
               mr: 0,

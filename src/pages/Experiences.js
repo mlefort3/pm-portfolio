@@ -8,6 +8,7 @@ import peopledocukg from './../peopledocukg.png'
 import logolrqdo from './../logoLRQDO.png';
 import security from './../security.png';
 import bnpparibas from './../BNP-Paribas-logo.png';
+import Box from '@mui/material/Box';
 import Copyright from './../components/Copyright';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import List from '@mui/material/List';
@@ -24,8 +25,8 @@ export default function Experiences() {
   return (
     <div>
     <Grid container justifyContent="center" spacing="3">
-    <Grid item md={9} xs={12} sx={{mx:{xs:5}}}>
-    <Paper sx={{pt:6,px:6,mt:6,borderRadius:4}}>
+    <Grid item md={9} xs={12} sx={{mx:{xs:2,md:5}}}>
+    <Paper sx={{pt:6,px:{xs:2,md:6},mt:6,borderRadius:4}}>
       <Grid item md={12} container direction="row" spacing={6}>
         <Grid item  md={4} sx={{justifyContent: 'center', alignItems:'center', width: '100%'}}>
           <img src={computerorder} width='100%' alt="Travail en cours" />
@@ -87,11 +88,21 @@ export default function Experiences() {
     </Grid>
 
 
-    <Grid item md={9} xs={12} sx={{mx:{xs:5}}}>
+    <Grid item md={9} xs={12} sx={{mx:{xs:2,md:5}}}>
     <AnimationOnScroll animateIn="animate__bounceIn" >
 
-    <Paper sx={{pt:6,px:6,mt:6,borderRadius:4}} >
+    <Paper sx={{pt:6,px:{xs:2,md:6},mt:6,borderRadius:4}} >
     <Grid item md={12} container direction="row" spacing={6}>
+
+
+    <Grid item container md={4} direction="column"
+  justifyContent="center"
+  alignItems="center" sx={{justifyContent: 'center', alignItems:'center', display: { xs:'flex', md: 'none' }}}>
+      <img src={peopledoc} width='100%' alt="Travail en cours"/>
+      <img src={peopledocukg} width='100%' alt="Travail en cours"/>
+
+    </Grid>
+
 
     <Grid item md={8}>
     <Typography color="#005151" component="h3" variant="h5" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
@@ -155,12 +166,14 @@ export default function Experiences() {
       </List>
     </Grid>
 
+
     <Grid item container md={4} direction="column"
   justifyContent="center"
-  alignItems="center" sx={{justifyContent: 'center', alignItems:'center', width: '100%'}}>
+  alignItems="center" sx={{justifyContent: 'center', alignItems:'center', width: '100%',display: { xs:'none', md: 'flex' }}}>
       <img src={peopledoc} width='100%' alt="Travail en cours"/>
       <img src={peopledocukg} width='100%' alt="Travail en cours"/>
     </Grid>
+
     </Grid>
     </Paper>
 
@@ -168,9 +181,9 @@ export default function Experiences() {
     </Grid>
 
 
-    <Grid item md={9} xs={12} sx={{mx:{xs:5}}}>
+    <Grid item md={9} xs={12} sx={{mx:{xs:2,md:5}}}>
     <AnimationOnScroll animateIn="animate__bounceIn">
-    <Paper sx={{pt:6,px:6,mt:6,borderRadius:4}}>
+    <Paper sx={{pt:6,px:{xs:2,md:6},mt:6,borderRadius:4}}>
       <Grid item md={12} container direction="row" spacing={6}>
         <Grid item  md={4} sx={{justifyContent: 'center', alignItems:'center', width: '100%'}}>
           <img src={security} width='100%' alt="Travail en cours" />
