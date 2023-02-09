@@ -2,30 +2,18 @@ import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import wip from "./../WIP.png"
 import Copyright from './../components/Copyright';
 import CardContent from '@mui/material/CardContent';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
-import {Link} from 'react-router-dom';
 import { CardActionArea } from '@mui/material/';
 import school from './../school.png';
 import courses from './../courses.png';
 import books from './../books.png';
-import Modal from '@mui/material/Modal';
-import Grow from '@mui/material/Grow';
-import Button from '@mui/material/Button';
-import Backdrop from '@mui/material/Backdrop';
-import Box from '@mui/material/Box';
 import CardActions from '@mui/material/CardActions';
 import Collapse from '@mui/material/Collapse';
-import Avatar from '@mui/material/Avatar';
 import IconButton, { IconButtonProps } from '@mui/material/IconButton';
-import { red } from '@mui/material/colors';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { styled } from '@mui/material/styles';
 import tncy from './../tncy.png';
 import iaenancy from './../iaenancy.png';
@@ -35,13 +23,11 @@ import mdp from './../mdp.jpg';
 import scrumleague from './../scrumleague.jpg';
 import udacity from './../udacity.jpg';
 import udemy from './../udemy.jpg';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import DateRangeIcon from '@mui/icons-material/DateRange';
-import WorkIcon from '@mui/icons-material/Work';
-import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
+import cdh from './../cdh.jpg';
+import dd from './../dd.jpg';
+import hooked from './../hooked.jpg';
+import inspired from './../inspired.jpg';
+import p2p from './../p2p.jpg';
 
 
 interface ExpandMoreProps extends IconButtonProps {
@@ -59,18 +45,6 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
 }));
 
 export default function Learning() {
-
-  const [openUni, setOpenUni] = React.useState(false);
-  const handleOpenUni = () => setOpenUni(true);
-  const handleCloseUni = () => setOpenUni(false);
-
-  const [openCourses, setOpenCourses] = React.useState(false);
-  const handleOpenCourses = () => setOpenUni(true);
-  const handleCloseCourses = () => setOpenUni(false);
-
-  const [openBooks, setOpenBooks] = React.useState(false);
-  const handleOpenBooks = () => setOpenUni(true);
-  const handleCloseBooks = () => setOpenUni(false);
 
   const [expandedUni, setExpandedUni] = React.useState(false);
   const [expandedCourses, setExpandedCourses] = React.useState(false);
@@ -463,12 +437,13 @@ export default function Learning() {
         <Collapse in={expandedBooks} timeout="auto" unmountOnExit>
           <CardContent>
           <Grid item container direction='row' spacing={1} alignItems='center'>
+
           <Grid item md={3}>
           <div align='center'>
           <CardMedia
             component="img"
             sx={{width:'75%'}}
-            image={tncy}
+            image={cdh}
             alt="green iguana"
             loading="lazy"
           />
@@ -476,10 +451,91 @@ export default function Learning() {
           </Grid>
           <Grid item md={9} container direction="column">
           <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
-            Nom
+            Continuous Discovery Habits
           </Typography>
           <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
-            Texte
+            Discover Products that Create Customer Value and Business Value <br/> De Teresa Torres
+          </Typography>
+          </Grid>
+
+          <Grid item md={3}>
+          <div align='center'>
+          <CardMedia
+            component="img"
+            sx={{width:'75%'}}
+            image={dd}
+            alt="green iguana"
+            loading="lazy"
+          />
+          </div>
+          </Grid>
+          <Grid item md={9} container direction="column">
+          <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
+            Discovery Discipline
+          </Typography>
+          <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+          La méthode radicale pour exceller en Product Discovery <br/> De Tristan Charvillat et Rémi Guyot
+          </Typography>
+          </Grid>
+
+
+          <Grid item md={3}>
+          <div align='center'>
+          <CardMedia
+            component="img"
+            sx={{width:'75%'}}
+            image={hooked}
+            alt="green iguana"
+            loading="lazy"
+          />
+          </div>
+          </Grid>
+          <Grid item md={9} container direction="column">
+          <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
+            Hooked
+          </Typography>
+          <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+            How to Build Habit-Forming Products <br/> De Nir Eyal
+          </Typography>
+          </Grid>
+
+          <Grid item md={3}>
+          <div align='center'>
+          <CardMedia
+            component="img"
+            sx={{width:'75%'}}
+            image={inspired}
+            alt="green iguana"
+            loading="lazy"
+          />
+          </div>
+          </Grid>
+          <Grid item md={9} container direction="column">
+          <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
+            Inspired
+          </Typography>
+          <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+            How to create tech products customer love <br/> De Marty Cagan
+          </Typography>
+          </Grid>
+
+          <Grid item md={3}>
+          <div align='center'>
+          <CardMedia
+            component="img"
+            sx={{width:'75%'}}
+            image={p2p}
+            alt="green iguana"
+            loading="lazy"
+          />
+          </div>
+          </Grid>
+          <Grid item md={9} container direction="column">
+          <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
+            Project to Product
+          </Typography>
+          <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+            Project to Product: How to Survive and Thrive in the Age of Digital Disruption with the Flow Framework <br/> De Mik Kersten
           </Typography>
           </Grid>
 

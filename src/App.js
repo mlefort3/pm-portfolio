@@ -6,7 +6,6 @@ import ResponsiveAppBar from './components/ResponsiveAppBar';
 import About from './pages/About';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
-import WorkInProgress from './pages/WorkInProgress';
 import Experiences from './pages/Experiences';
 import Skills from './pages/Skills';
 import Learning from './pages/Learning';
