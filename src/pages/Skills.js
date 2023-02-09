@@ -11,6 +11,14 @@ import bnpparibas from './../BNP-Paribas-logo.png';
 import looker from './../looker.png';
 import pendo from './../pendo.png';
 import redash from './../redash.png';
+import ga from './../GoogleAnalytics.png';
+import hotjar from './../hotjar.png';
+import sql from './../sql.png';
+import figma from './../figma.png';
+import miro from './../miro.png';
+import sondage from './../sondage.png';
+import cadrage from './../cadrage.png';
+import entretien from './../entretien.png';
 import Copyright from './../components/Copyright';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import List from '@mui/material/List';
@@ -22,29 +30,110 @@ import WorkIcon from '@mui/icons-material/Work';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import "animate.css/animate.min.css";
 import Button from '@mui/material/Button';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
+import Accordion from '@mui/material/Accordion';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
 
 export default function Experiences() {
 
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
+
   return (
     <div>
-    <Grid container justifyContent="center" spacing="3">
+    <Grid container justifyContent="center">
     <Grid item md={9} xs={12} sx={{mx:{xs:5}}}>
 
     <Paper sx={{py:3,px:6,mt:6,borderRadius:4}} >
 
-    <Typography color="primary.main" component="h3" variant="h5" gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
-      Analyse de données utilisateurs
+    <Typography color="#005151" component="h3" variant="h5" gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
+      Compétences et outils
+    </Typography>
+    <Typography sx={{textAlign:'left', color: 'text.secondary',pb:4 }}>
+      Vous trouverez dans cette section les différentes compétences et maîtrise d'outils que j'ai pu acquérir lors de mes différentes expériences en tant que Product Manager.
     </Typography>
 
 
-    <Grid container direction='row' spacing={2}>
+
+    <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <AccordionSummary
+        expandIcon={<ExpandMoreIcon />}
+        aria-controls="panel1bh-content"
+        id="panel1bh-header"
+      >
+        <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
+          Analyse de données utilisateurs
+        </Typography>
+        <Typography sx={{ color: 'text.secondary' }}>Maîtrise d'un certain nombre d'outils d'analyse de données et connaissance du SQL.</Typography>
+      </AccordionSummary>
+      <AccordionDetails >
+
+    <Grid container direction='row' justifyContent='flex-start' spacing={2}>
+
 
     <Grid item container direction="column" justifyContent='space-between' md={4}>
-    <Card sx={{ width: 300, height:350,borderRadius:4 }}>
+    <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+      <Grid item>
+      <CardMedia
+        component="img"
+        width='100%'
+        sx={{p:5}}
+        image={ga}
+        title="green iguana"
+      />
+      </Grid>
+      <Grid item>
+      <CardContent>
+        <Typography align="left" variant="body2" color="text.secondary">
+          Analyse des données d'utilisation d'un produit. Cela permet par exemple de connaître le nombre de connexions par type d'appareil à une page spécifique.
+        </Typography>
+      </CardContent>
+      </Grid>
+      <Grid>
+      <CardActions>
+        <Button size="small" color="primary">Exemples d'utilisation</Button>
+      </CardActions>
+      </Grid>
+    </Card>
+    </Grid>
+
+    <Grid item container direction="column" justifyContent='space-between' md={4}>
+    <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+      <Grid item>
+      <CardMedia
+        component="img"
+        width='100%'
+        sx={{p:5}}
+        image={hotjar}
+        title="green iguana"
+      />
+      </Grid>
+      <Grid item>
+      <CardContent>
+        <Typography align="left" variant="body2" color="text.secondary">
+          Analyse de l'utilisation de la plateforme par les utilisateurs par le biais de 'heatmaps' et d'enregistrements vidéos des utilisations faites de l'interface.
+        </Typography>
+      </CardContent>
+      </Grid>
+      <Grid>
+      <CardActions>
+        <Button size="small" color="primary">Exemples d'utilisation</Button>
+      </CardActions>
+      </Grid>
+    </Card>
+    </Grid>
+
+
+    <Grid item container direction="column" justifyContent='space-between' md={4}>
+    <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
       <Grid item>
       <CardMedia
         component="img"
@@ -57,7 +146,7 @@ export default function Experiences() {
       <Grid item>
       <CardContent>
         <Typography align="left" variant="body2" color="text.secondary">
-          Looker est un outil d'analyse et de visualisation de données. Il permet la création de dashboards personnalisés de manière simple sur la base de données.
+          Analyse et visualisation de données via des requêtes simplifiées sur la base de données et la création de dashboards spécifiques au produit.
         </Typography>
       </CardContent>
       </Grid>
@@ -71,8 +160,10 @@ export default function Experiences() {
 
 
 
-    <Grid item container direction="column" justifyContent='space-around' md={4}>
-    <Card sx={{ width: 300, height:350,borderRadius:4 }}>
+    <Grid item container direction="column" md={4}>
+
+    <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+    <Grid item >
       <CardMedia
         component="img"
         width='100%'
@@ -80,20 +171,26 @@ export default function Experiences() {
         image={pendo}
         title="green iguana"
       />
+      </Grid>
+      <Grid item>
       <CardContent>
         <Typography align="left" variant="body2" color="text.secondary">
-          Pendo est une plateforme d'expérience produit qui permet l'analyse de l'utilisation de la plateforme par les utilisateurs ainsi que le paramétrage de guides et de sondages personnalisés.
+          Analyse de l'utilisation de la plateforme par les utilisateurs par le biais de 'heatmaps', taux de conversions et nombre de clics sur les différentes pages.
+          Paramétrage de tutoriels et de sondages personnalisés sur l'interface.
         </Typography>
       </CardContent>
+      </Grid>
+      <Grid item>
       <CardActions>
         <Button size="small" color="primary">Exemples d'utilisation</Button>
       </CardActions>
+      </Grid>
     </Card>
     </Grid>
 
     <Grid item container direction="column" justifyContent='space-around' md={4}>
-    <Card sx={{ width: 300, height:350, borderRadius:4}}>
-    <div style={{ display:'flex', justifyContent:'center' }}>
+    <Card sx={{ width: 300, height:350, borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between' }}>
+    <div align='center'>
       <CardMedia
         component="img"
         sx={{p:4,width:'75%'}}
@@ -103,7 +200,30 @@ export default function Experiences() {
       </div>
       <CardContent>
         <Typography align="left" variant="body2" color="text.secondary">
-        Redash est un outil d'analyse et de visualisation de données. Il permet notamment la création de dashboards personnalisés à partir de requêtes réalisées sur la base de données.
+        Analyse et visualisation de données via des requêtes SQL personnalisées. Création de dashboards permettant le suivi des objectifs produits 2023.
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small" color="primary">Exemples d'utilisation</Button>
+      </CardActions>
+    </Card>
+    </Grid>
+
+
+
+    <Grid item container direction="column" justifyContent='space-around' md={4}>
+    <Card sx={{ width: 300, height:350, borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between' }}>
+    <div align='center'>
+      <CardMedia
+        component="img"
+        sx={{p:4,width:'75%'}}
+        image={sql}
+        title="green iguana"
+      />
+      </div>
+      <CardContent>
+        <Typography align="left" variant="body2" color="text.secondary">
+          Analyse de données présentes en base de données via l'utilisation de requêtes SQL sur une base de données PostgreSQL.
         </Typography>
       </CardContent>
       <CardActions>
@@ -113,6 +233,184 @@ export default function Experiences() {
     </Grid>
 
     </Grid>
+
+
+    </AccordionDetails>
+    </Accordion>
+
+    <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <AccordionSummary
+        expandIcon={<ExpandMoreIcon />}
+        aria-controls="panel2bh-content"
+        id="panel2bh-header"
+      >
+        <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
+          Phases de recherche (Discovery)
+        </Typography>
+        <Typography sx={{ color: 'text.secondary' }}>Recherche utilisateur en continu avec les équipes Product Design et Tech.</Typography>
+      </AccordionSummary>
+      <AccordionDetails >
+
+      <Grid container direction='row' justifyContent='flex-start' spacing={2}>
+
+
+      <Grid item container direction="column" justifyContent='space-between' md={4}>
+      <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+        <Grid item>
+        <div align='center'>
+        <CardMedia
+          component="img"
+          sx={{p:5,width:'75%'}}
+          image={cadrage}
+          title="green iguana"
+        />
+        </div>
+        </Grid>
+        <Grid item>
+        <CardContent>
+          <Typography align="left" variant="body2" color="text.secondary">
+            À chaque sujet de discovery, réalisation d'un document de cadrage permettant de structurer et résumer les objectifs du sujet et les mesures de succès associées.
+          </Typography>
+        </CardContent>
+        </Grid>
+        <Grid>
+        <CardActions>
+          <Button size="small" color="primary">Exemples d'utilisation</Button>
+        </CardActions>
+        </Grid>
+      </Card>
+      </Grid>
+
+
+      <Grid item container direction="column" justifyContent='space-between' md={4}>
+      <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+        <Grid item>
+        <div align='center'>
+        <CardMedia
+          component="img"
+          sx={{p:5,width:'70%'}}
+          image={entretien}
+          title="green iguana"
+        />
+        </div>
+        </Grid>
+        <Grid item>
+        <CardContent>
+          <Typography align="left" variant="body2" color="text.secondary">
+            Organisation et conduite d'entretien utilisateurs en partenariat avec l'équipe Product Design, dans le but de recueillir des retours qualitatifs sur le produit.
+          </Typography>
+        </CardContent>
+        </Grid>
+        <Grid>
+        <CardActions>
+          <Button size="small" color="primary">Exemples d'utilisation</Button>
+        </CardActions>
+        </Grid>
+      </Card>
+      </Grid>
+
+      <Grid item container direction="column" justifyContent='space-between' md={4}>
+      <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+        <Grid item>
+        <div align='center'>
+        <CardMedia
+          component="img"
+          sx={{p:5,width:'85%'}}
+          image={figma}
+          title="green iguana"
+        />
+        </div>
+        </Grid>
+        <Grid item>
+        <CardContent>
+          <Typography align="left" variant="body2" color="text.secondary">
+            Utilisation de Figma pour l'analyse de maquettes portant sur de potentielles nouvelles fonctionnalités du produit. Réalisation de maquettes pour des projets perso.
+          </Typography>
+        </CardContent>
+        </Grid>
+        <Grid>
+        <CardActions>
+          <Button size="small" color="primary">Exemples d'utilisation</Button>
+        </CardActions>
+        </Grid>
+      </Card>
+      </Grid>
+
+      <Grid item container direction="column" justifyContent='space-between' md={4}>
+      <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+        <Grid item>
+        <CardMedia
+          component="img"
+          width='100%'
+          sx={{p:5}}
+          image={miro}
+          title="green iguana"
+        />
+        </Grid>
+        <Grid item>
+        <CardContent>
+          <Typography align="left" variant="body2" color="text.secondary">
+            Conduite d'ateliers de co-conception UX, de retours utilisateurs via des tableaux Miro. Réalisation de tableaux de story-mapping.
+          </Typography>
+        </CardContent>
+        </Grid>
+        <Grid>
+        <CardActions>
+          <Button size="small" color="primary">Exemples d'utilisation</Button>
+        </CardActions>
+        </Grid>
+      </Card>
+      </Grid>
+
+      <Grid item container direction="column" justifyContent='space-between' md={4}>
+      <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+        <Grid item>
+        <CardMedia
+          component="img"
+          width='100%'
+          sx={{p:5}}
+          image={sondage}
+          title="green iguana"
+        />
+        </Grid>
+        <Grid item>
+        <CardContent>
+          <Typography align="left" variant="body2" color="text.secondary">
+            Envoi de sondages en interne ou auprès d'utilisateurs du produit via Google Forms, Microsoft Forms ou Typeform pour le recueil de besoins utilisateurs.
+          </Typography>
+        </CardContent>
+        </Grid>
+        <Grid>
+        <CardActions>
+          <Button size="small" color="primary">Exemples d'utilisation</Button>
+        </CardActions>
+        </Grid>
+      </Card>
+      </Grid>
+
+
+      </Grid>
+
+      </AccordionDetails>
+      </Accordion>
+
+
+      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel3bh-content"
+          id="panel3bh-header"
+        >
+          <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
+            Phases de développement (Delivery)
+          </Typography>
+          <Typography sx={{ color: 'text.secondary' }}>Travail au quotidien avec l'équipe de développement lors des différentes phases.</Typography>
+        </AccordionSummary>
+        <AccordionDetails >
+
+        </AccordionDetails>
+        </Accordion>
+
 
 
     </Paper>
