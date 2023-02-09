@@ -8,7 +8,6 @@ import peopledocukg from './../peopledocukg.png'
 import logolrqdo from './../logoLRQDO.png';
 import security from './../security.png';
 import bnpparibas from './../BNP-Paribas-logo.png';
-import Box from '@mui/material/Box';
 import Copyright from './../components/Copyright';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import List from '@mui/material/List';
