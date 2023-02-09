@@ -19,6 +19,15 @@ import miro from './../miro.png';
 import sondage from './../sondage.png';
 import cadrage from './../cadrage.png';
 import entretien from './../entretien.png';
+import aha from './../aha.png';
+import asana from './../asana.png';
+import jira from './../jira.png';
+import postman from './../postman.png';
+import specs from './../specs.png';
+import test from './../test.png';
+import confluence from './../confluence.png';
+import notion from './../notion.png';
+import slack from './../slack.png';
 import Copyright from './../components/Copyright';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import List from '@mui/material/List';
@@ -408,8 +417,277 @@ export default function Experiences() {
         </AccordionSummary>
         <AccordionDetails >
 
+        <Grid container direction='row' justifyContent='flex-start' spacing={2}>
+
+
+        <Grid item container direction="column" justifyContent='space-between' md={4}>
+        <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+          <Grid item>
+          <CardMedia
+            component="img"
+            width='100%'
+            sx={{p:5}}
+            image={aha}
+            title="green iguana"
+          />
+          </Grid>
+          <Grid item>
+          <CardContent>
+            <Typography align="left" variant="body2" color="text.secondary">
+              Création, gestion et communication des roadmaps produit via le logiciel Aha!
+              Analyse et priorisation des retours utilisateurs.
+            </Typography>
+          </CardContent>
+          </Grid>
+          <Grid>
+          <CardActions>
+            <Button size="small" color="primary">Exemples d'utilisation</Button>
+          </CardActions>
+          </Grid>
+        </Card>
+        </Grid>
+
+
+        <Grid item container direction="column" justifyContent='space-between' md={4}>
+        <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+          <Grid item>
+          <CardMedia
+            component="img"
+            width='100%'
+            sx={{p:5,pt:10}}
+            image={asana}
+            title="green iguana"
+          />
+          </Grid>
+          <Grid item>
+          <CardContent>
+            <Typography align="left" variant="body2" color="text.secondary">
+              Création de backlogs, gestion de sprints et création de tickets pour l'équipe de développement via Asana.<br/>
+              Remontées et analyses de bugs.
+            </Typography>
+          </CardContent>
+          </Grid>
+          <Grid>
+          <CardActions>
+            <Button size="small" color="primary">Exemples d'utilisation</Button>
+          </CardActions>
+          </Grid>
+        </Card>
+        </Grid>
+
+        <Grid item container direction="column" justifyContent='space-between' md={4}>
+        <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+          <Grid item>
+          <CardMedia
+            component="img"
+            width='100%'
+            sx={{p:5, pt:10}}
+            image={jira}
+            title="green iguana"
+          />
+          </Grid>
+          <Grid item>
+          <CardContent>
+            <Typography align="left" variant="body2" color="text.secondary">
+            Création de backlogs, gestion de sprints et création de tickets pour l'équipe de développement via Jira.<br/>
+            Remontées et analyses de bugs.
+            </Typography>
+          </CardContent>
+          </Grid>
+          <Grid>
+          <CardActions>
+            <Button size="small" color="primary">Exemples d'utilisation</Button>
+          </CardActions>
+          </Grid>
+        </Card>
+        </Grid>
+
+        <Grid item container direction="column" justifyContent='space-between' md={4}>
+        <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+          <Grid item>
+          <CardMedia
+            component="img"
+            width='100%'
+            sx={{p:5}}
+            image={postman}
+            title="green iguana"
+          />
+          </Grid>
+          <Grid item>
+          <CardContent>
+            <Typography align="left" variant="body2" color="text.secondary">
+              Utilisation et tests des APIs du produit via le logiciel Postman.
+            </Typography>
+          </CardContent>
+          </Grid>
+          <Grid>
+          <CardActions>
+            <Button size="small" color="primary">Exemples d'utilisation</Button>
+          </CardActions>
+          </Grid>
+        </Card>
+        </Grid>
+
+        <Grid item container direction="column" justifyContent='space-between' md={4}>
+        <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+          <Grid item>
+          <div align='center'>
+          <CardMedia
+            component="img"
+            sx={{p:5,width:'75%'}}
+            image={specs}
+            title="green iguana"
+          />
+          </div>
+          </Grid>
+          <Grid item>
+          <CardContent>
+            <Typography align="left" variant="body2" color="text.secondary">
+              Rédactions de spécifications, découpage et échanges sur les différents sujets de développement en collaboration avec l'ensemble de l'équipe.
+            </Typography>
+          </CardContent>
+          </Grid>
+          <Grid>
+          <CardActions>
+            <Button size="small" color="primary">Exemples d'utilisation</Button>
+          </CardActions>
+          </Grid>
+        </Card>
+        </Grid>
+
+        <Grid item container direction="column" justifyContent='space-between' md={4}>
+        <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+          <Grid item>
+          <div align='center'>
+          <CardMedia
+            component="img"
+            sx={{p:5,width:'75%'}}
+            image={test}
+            title="green iguana"
+          />
+          </div>
+          </Grid>
+          <Grid item>
+          <CardContent>
+            <Typography align="left" variant="body2" color="text.secondary">
+              Réalisation des tests fonctionnels sur les nouvelles fonctionnalités et lors des mises à jour du produit, réalisés sur des environnements à la demande ou de test.
+            </Typography>
+          </CardContent>
+          </Grid>
+          <Grid>
+          <CardActions>
+            <Button size="small" color="primary">Exemples d'utilisation</Button>
+          </CardActions>
+          </Grid>
+        </Card>
+        </Grid>
+
+        </Grid>
+
         </AccordionDetails>
         </Accordion>
+
+
+        <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel4bh-content"
+            id="panel4bh-header"
+          >
+            <Typography sx={{ width: '33%', flexShrink: 0, fontWeight:"bold", textAlign:"left" }}>
+              Réalisation de documentations
+            </Typography>
+            <Typography sx={{ color: 'text.secondary' }}>Travail au quotidien avec l'équipe de développement lors des différentes phases.</Typography>
+          </AccordionSummary>
+          <AccordionDetails >
+
+          <Grid container direction='row' justifyContent='flex-start' spacing={2}>
+
+
+          <Grid item container direction="column" justifyContent='space-between' md={4}>
+          <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+            <Grid item>
+            <CardMedia
+              component="img"
+              width='100%'
+              sx={{p:5,pt:10}}
+              image={confluence}
+              title="green iguana"
+            />
+            </Grid>
+            <Grid item>
+            <CardContent>
+              <Typography align="left" variant="body2" color="text.secondary">
+                Création d'un espace de documentation centralisé autour du produit sur Confluence : tutoriels, dernières fonctionnalités, roadmap, etc.
+              </Typography>
+            </CardContent>
+            </Grid>
+            <Grid>
+            <CardActions>
+              <Button size="small" color="primary">Exemples d'utilisation</Button>
+            </CardActions>
+            </Grid>
+          </Card>
+          </Grid>
+
+
+          <Grid item container direction="column" justifyContent='space-between' md={4}>
+          <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+            <Grid item>
+            <CardMedia
+              component="img"
+              width='100%'
+              sx={{p:5,pt:10}}
+              image={notion}
+              title="green iguana"
+            />
+            </Grid>
+            <Grid item>
+            <CardContent>
+              <Typography align="left" variant="body2" color="text.secondary">
+                Création de documentation de cadrages, de suivi des projets et de documents de passation sur Notion.
+              </Typography>
+            </CardContent>
+            </Grid>
+            <Grid>
+            <CardActions>
+              <Button size="small" color="primary">Exemples d'utilisation</Button>
+            </CardActions>
+            </Grid>
+          </Card>
+          </Grid>
+
+          <Grid item container direction="column" justifyContent='space-between' md={4}>
+          <Card sx={{ width: 300, height:350,borderRadius:4,display: 'flex', flexDirection: 'column',justifyContent: 'space-between'  }}>
+            <Grid item>
+            <CardMedia
+              component="img"
+              width='100%'
+              sx={{p:5, pt:10}}
+              image={slack}
+              title="green iguana"
+            />
+            </Grid>
+            <Grid item>
+            <CardContent>
+              <Typography align="left" variant="body2" color="text.secondary">
+              Communication et recueil de retours en interne via Slack : dernières fonctionnalités, annonces de plans de déploiements, etc.
+              </Typography>
+            </CardContent>
+            </Grid>
+            <Grid>
+            <CardActions>
+              <Button size="small" color="primary">Exemples d'utilisation</Button>
+            </CardActions>
+            </Grid>
+          </Card>
+          </Grid>
+
+          </Grid>
+
+          </AccordionDetails>
+          </Accordion>
+
 
 
 
