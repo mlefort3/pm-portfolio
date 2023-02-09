@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import WorkInProgress from './pages/WorkInProgress';
 import Experiences from './pages/Experiences';
 import Skills from './pages/Skills';
+import Learning from './pages/Learning';
 import NotFound from './pages/NotFound';
 import theme from './theme';
 import "animate.css/animate.min.css";
@@ -23,7 +24,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route exact path="/competences" element={<Skills/>}/>
       <Route exact path="/experiences" element={<Experiences/>}/>
-      <Route exact path="/formations" element={<WorkInProgress/>}/>
+      <Route exact path="/formations" element={<Learning/>}/>
       <Route exact path="/apropos" element={<About/>}/>
       <Route exact path="/*" element={<NotFound/>}/>
     </Routes>
