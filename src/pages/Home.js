@@ -22,7 +22,7 @@ const Home = () => {
     return (
       <ThemeProvider theme={theme}>
         <Paper className="Paper-Container">
-            <CardMedia image={banner} className="App-Banner" alt="logo" sx={{opacity:1,minHeight:300}}>
+            <CardMedia image={banner} className="App-Banner" alt="Bannière du site : un paysage de forêt" sx={{opacity:1,minHeight:300}}>
 
             <Grid container>
               <Grid item md={6}>
@@ -51,15 +51,15 @@ const Home = () => {
           <Grid item xs={12} md={3}>
             <Card className="Homecard" sx={{ maxWidth: 445, border: 1, borderColor:"secondary", borderRadius:"5%", boxShadow: 3, '&:hover': {
        boxShadow: "10"}}}>
-              <CardActionArea component={Link} to="/experiences/">
+              <CardActionArea id="experienceCard" component={Link} to="/experiences/" >
                 <CardMedia
                   component="img"
                   height="300"
                   image={experience}
-                  alt="green iguana"
+                  alt="Expériences - Une personne montre plusieurs fichiers"
                   loading="lazy"
                 />
-                <CardContent>
+                <CardContent >
                   <Typography gutterBottom variant={"h5"} component="div">
                     Mes expériences
                   </Typography>
@@ -79,7 +79,7 @@ const Home = () => {
                   component="img"
                   height="300"
                   image={skills}
-                  alt="green iguana"
+                  alt="Compétences - Une personne fait une présentation"
                   loading="lazy"
                 />
                 <CardContent>
@@ -102,7 +102,7 @@ const Home = () => {
                     component="img"
                     height="300"
                     image={learning}
-                    alt="green iguana"
+                    alt="Formations - Une personne marche sur un escalier de livres"
                     loading="lazy"
                   />
                   <CardContent>

@@ -150,15 +150,17 @@ const ResponsiveAppBar = () => {
             ))}
           </Box>
 
+          <div>
           <Tooltip title="Mon CV">
-            <IconButton sx={{mr:{xs:1,md:2},backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://cloud.leviia.com/s/ZnIy.5fYHRqNwMtXXqfQ">
-                <DescriptionIcon/>
+            <IconButton aria-label="Mon CV" sx={{mr:{xs:1,md:2},backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://cloud.leviia.com/s/ZnIy.5fYHRqNwMtXXqfQ">
+                <DescriptionIcon tabindex='0' alt="Icône de CV"/>
             </IconButton>
           </Tooltip>
+          </div>
 
           <Tooltip title="Mon profil LinkedIn">
-            <IconButton sx={{backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://www.linkedin.com/in/maxence-lefort/">
-                <LinkedInIcon/>
+            <IconButton aria-label="Mon profil LinkedIn" sx={{backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://www.linkedin.com/in/maxence-lefort/">
+                <LinkedInIcon tabindex='0' alt="Icône LinkedIn"/>
             </IconButton>
           </Tooltip>
 
