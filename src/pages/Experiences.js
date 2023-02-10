@@ -3,10 +3,10 @@ import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import computerorder from "./../Host+member.png";
-import peopledoc from "./../peopledoc.png";
-import peopledocukg from './../peopledocukg.png'
+import peopledoc from "./../peopledoc.webp";
+import peopledocukg from './../peopledocukg.webp'
 import logolrqdo from './../logoLRQDO.png';
-import security from './../security.png';
+import security from './../security.webp';
 import bnpparibas from './../BNP-Paribas-logo.png';
 import Copyright from './../components/Copyright';
 import { AnimationOnScroll } from 'react-animation-on-scroll';

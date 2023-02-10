@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import banner from './../banner.jpg';
 import experience from './../experience.png'
 import learning from './../learning.png'
-import skills from './../skills.png'
+import skills from './../skills.webp'
 import {Link} from 'react-router-dom';
 import theme from './../theme';
 import { ThemeProvider } from '@mui/material';
