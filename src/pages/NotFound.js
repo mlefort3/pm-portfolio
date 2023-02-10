@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
-import notFound from "./../404.png"
+import notFound from "./../404.webp"
 import Grid from "@mui/material/Grid";
 import Copyright from './../components/Copyright';
 

@@ -3,9 +3,9 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import banner from './../banner.jpg';
-import experience from './../experience.png'
-import learning from './../learning.png'
+import banner from './../banner.webp';
+import experience from './../experience.webp'
+import learning from './../learning.webp'
 import skills from './../skills.webp'
 import {Link} from 'react-router-dom';
 import theme from './../theme';

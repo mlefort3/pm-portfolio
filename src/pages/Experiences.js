@@ -2,12 +2,12 @@ import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import computerorder from "./../Host+member.png";
+import computerorder from "./../host+member.webp";
 import peopledoc from "./../peopledoc.webp";
 import peopledocukg from './../peopledocukg.webp'
-import logolrqdo from './../logoLRQDO.png';
+import logolrqdo from './../logoLRQDO.webp';
 import security from './../security.webp';
-import bnpparibas from './../BNP-Paribas-logo.png';
+import bnpparibas from './../bnp-paribas-logo.webp';
 import Copyright from './../components/Copyright';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import List from '@mui/material/List';
