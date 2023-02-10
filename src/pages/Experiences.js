@@ -28,8 +28,8 @@ export default function Experiences() {
     <Paper sx={{pt:6,px:{xs:2,md:6},mt:6,borderRadius:4}}>
       <Grid item md={12} container direction="row" spacing={6}>
         <Grid item  md={4} sx={{justifyContent: 'center', alignItems:'center', width: '100%'}}>
-          <img src={computerorder} width='100%' alt="Travail en cours" />
-          <img src={logolrqdo} width='100%' alt="Travail en cours" />
+          <img src={computerorder} width='100%' alt="Représentation du fonctionnement de la ruche qui dit oui" loading='lazy' />
+          <img src={logolrqdo} width='100%' alt="La ruche qui dit oui" loading='lazy' />
         </Grid>
         <Grid item md={8}>
         <Typography color="#005151" component="h3" variant="h5" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
@@ -97,8 +97,8 @@ export default function Experiences() {
     <Grid item container md={4} direction="column"
   justifyContent="center"
   alignItems="center" sx={{justifyContent: 'center', alignItems:'center', display: { xs:'flex', md: 'none' }}}>
-      <img src={peopledoc} width='100%' alt="Travail en cours"/>
-      <img src={peopledocukg} width='100%' alt="Travail en cours"/>
+      <img src={peopledoc} width='100%' alt="Système de PeopleDoc" loading='lazy' />
+      <img src={peopledocukg} width='100%' alt="PeopleDoc by UKG" loading='lazy' />
 
     </Grid>
 
@@ -169,8 +169,8 @@ export default function Experiences() {
     <Grid item container md={4} direction="column"
   justifyContent="center"
   alignItems="center" sx={{justifyContent: 'center', alignItems:'center', width: '100%',display: { xs:'none', md: 'flex' }}}>
-      <img src={peopledoc} width='100%' alt="Travail en cours"/>
-      <img src={peopledocukg} width='100%' alt="Travail en cours"/>
+      <img src={peopledoc} width='100%' loading='lazy' alt="Système de PeopleDoc"/>
+      <img src={peopledocukg} width='100%' loading='lazy'  alt="PeopleDoc by UKG"/>
     </Grid>
 
     </Grid>
@@ -185,8 +185,8 @@ export default function Experiences() {
     <Paper sx={{pt:6,px:{xs:2,md:6},mt:6,borderRadius:4}}>
       <Grid item md={12} container direction="row" spacing={6}>
         <Grid item  md={4} sx={{justifyContent: 'center', alignItems:'center', width: '100%'}}>
-          <img src={security} width='100%' alt="Travail en cours" />
-          <img src={bnpparibas} width='100%' alt="Travail en cours" />
+          <img src={security} width='100%' alt="Sécurité des réseaux" loading='lazy'/>
+          <img src={bnpparibas} width='100%' alt="BNP Paribas" loading='lazy'/>
         </Grid>
         <Grid item md={8}>
         <Typography color="#005151" component="h3" variant="h5" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>

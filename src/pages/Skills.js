@@ -82,7 +82,8 @@ export default function Experiences() {
         width='100%'
         sx={{p:5}}
         image={ga}
-        title="green iguana"
+        title="Google Analytics"
+        loading='lazy'
       />
       </Grid>
       <Grid item>
@@ -108,7 +109,8 @@ export default function Experiences() {
         width='100%'
         sx={{p:5}}
         image={hotjar}
-        title="green iguana"
+        title="Hotjar"
+        loading='lazy'
       />
       </Grid>
       <Grid item>
@@ -135,7 +137,8 @@ export default function Experiences() {
         width='100%'
         sx={{p:5}}
         image={looker}
-        title="green iguana"
+        title="Looker"
+        loading='lazy'
       />
       </Grid>
       <Grid item>
@@ -164,7 +167,8 @@ export default function Experiences() {
         width='100%'
         sx={{p:5}}
         image={pendo}
-        title="green iguana"
+        title="Pendo"
+        loading='lazy'
       />
       </Grid>
       <Grid item>
@@ -190,7 +194,8 @@ export default function Experiences() {
         component="img"
         sx={{p:4,width:'75%'}}
         image={redash}
-        title="green iguana"
+        title="Redash"
+        loading='lazy'
       />
       </div>
       <CardContent>
@@ -213,7 +218,8 @@ export default function Experiences() {
         component="img"
         sx={{p:4,width:'75%'}}
         image={sql}
-        title="green iguana"
+        title="SQL"
+        loading='lazy'
       />
       </div>
       <CardContent>
@@ -257,7 +263,8 @@ export default function Experiences() {
           component="img"
           sx={{p:5,width:'75%'}}
           image={cadrage}
-          title="green iguana"
+          title="Cadrage d'un projet"
+          loading='lazy'
         />
         </div>
         </Grid>
@@ -285,7 +292,8 @@ export default function Experiences() {
           component="img"
           sx={{p:5,width:'70%'}}
           image={entretien}
-          title="green iguana"
+          title="Entretiens utilisateurs"
+          loading='lazy'
         />
         </div>
         </Grid>
@@ -312,7 +320,8 @@ export default function Experiences() {
           component="img"
           sx={{p:5,width:'85%'}}
           image={figma}
-          title="green iguana"
+          title="Figma"
+          loading='lazy'
         />
         </div>
         </Grid>
@@ -339,7 +348,8 @@ export default function Experiences() {
           width='100%'
           sx={{p:5}}
           image={miro}
-          title="green iguana"
+          title="Miro"
+          loading='lazy'
         />
         </Grid>
         <Grid item>
@@ -365,7 +375,8 @@ export default function Experiences() {
           width='100%'
           sx={{p:5}}
           image={sondage}
-          title="green iguana"
+          title="Sondage auprès des utilisateurs"
+          loading='lazy'
         />
         </Grid>
         <Grid item>
@@ -414,7 +425,8 @@ export default function Experiences() {
             width='100%'
             sx={{p:5}}
             image={aha}
-            title="green iguana"
+            title="Aha!"
+            loading='lazy'
           />
           </Grid>
           <Grid item>
@@ -442,7 +454,8 @@ export default function Experiences() {
             width='100%'
             sx={{p:5,pt:10}}
             image={asana}
-            title="green iguana"
+            title="Asana"
+            loading='lazy'
           />
           </Grid>
           <Grid item>
@@ -469,7 +482,8 @@ export default function Experiences() {
             width='100%'
             sx={{p:5, pt:10}}
             image={jira}
-            title="green iguana"
+            title="Jira"
+            loading='lazy'
           />
           </Grid>
           <Grid item>
@@ -496,7 +510,8 @@ export default function Experiences() {
             width='100%'
             sx={{p:5}}
             image={postman}
-            title="green iguana"
+            title="Postman"
+            loading='lazy'
           />
           </Grid>
           <Grid item>
@@ -522,7 +537,8 @@ export default function Experiences() {
             component="img"
             sx={{p:5,width:'75%'}}
             image={specs}
-            title="green iguana"
+            title="Spécification de tickets"
+            loading='lazy'
           />
           </div>
           </Grid>
@@ -549,7 +565,8 @@ export default function Experiences() {
             component="img"
             sx={{p:5,width:'75%'}}
             image={test}
-            title="green iguana"
+            title="Tests fonctionnels"
+            loading='lazy'
           />
           </div>
           </Grid>
@@ -598,7 +615,8 @@ export default function Experiences() {
               width='100%'
               sx={{p:5,pt:10}}
               image={confluence}
-              title="green iguana"
+              title="Confluence"
+              loading='lazy'
             />
             </Grid>
             <Grid item>
@@ -625,7 +643,8 @@ export default function Experiences() {
               width='100%'
               sx={{p:5,pt:10}}
               image={notion}
-              title="green iguana"
+              title="Notion"
+              loading='lazy'
             />
             </Grid>
             <Grid item>
@@ -651,7 +670,8 @@ export default function Experiences() {
               width='100%'
               sx={{p:5, pt:10}}
               image={slack}
-              title="green iguana"
+              title="Slack"
+              loading='lazy'
             />
             </Grid>
             <Grid item>

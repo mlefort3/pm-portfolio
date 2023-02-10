@@ -12,7 +12,7 @@ export default function WorkInProgress() {
     <Grid container justifyContent="center" sx={{mt:5}}>
     <Grid item md={9} xs={12} sx={{mx:{xs:5}}}>
     <Paper sx={{pt:10}}>
-      <img src={wip} height={200} alt="Travail en cours"/>
+      <img src={wip} loading='lazy' height={200} alt="Travail en cours"/>
       <Typography color="secondary.main" component="h3" variant="h4" gutterBottom sx={{textAlign:"center",fontWeight:"bold",pb:10,pt:2}}>
         Page en cours de développement 🚧
       </Typography>

@@ -12,7 +12,7 @@ export default function NotFound() {
     <Grid container justifyContent="center" sx={{mt:5}}>
     <Grid item md={9} xs={12} sx={{mx:{xs:5}}}>
     <Paper sx={{pt:10}}>
-      <img src={notFound} height={300} alt="Page non trouvée"/>
+      <img src={notFound} height={300} loading='lazy' alt="Page non trouvée"/>
       <Typography color="secondary.main" component="h3" variant="h4" gutterBottom sx={{textAlign:"center",fontWeight:"bold",pb:10,pt:2}}>
         Oups ... nous ne trouvons pas cette page 😢
       </Typography>

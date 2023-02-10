@@ -22,7 +22,7 @@ const Home = () => {
     return (
       <ThemeProvider theme={theme}>
         <Paper className="Paper-Container">
-            <CardMedia image={banner} className="App-Banner" alt="Bannière du site : un paysage de forêt" sx={{opacity:1,minHeight:300}}>
+            <CardMedia image={banner} loading='lazy' className="App-Banner" alt="Bannière du site : un paysage de forêt" sx={{opacity:1,minHeight:300}}>
 
             <Grid container>
               <Grid item md={6}>

@@ -60,7 +60,7 @@ const ResponsiveAppBar = () => {
         <Toolbar disableGutters>
         <Box className="App-Box" sx={{ cursor:'pointer', display: { xs: 'none', md: 'flex' }}}>
         <Link to="/">
-          <img src={profile} className="App-Logo" alt="logo"/>
+          <img src={profile} className="App-Logo" loading='lazy' alt="Maxence Lefort"/>
         </Link>
           <Typography
             variant="h6"

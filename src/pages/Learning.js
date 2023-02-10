@@ -86,7 +86,7 @@ export default function Learning() {
             component="img"
             image={school}
             sx={{width:'90%',pt:5,pb:2}}
-            alt="green iguana"
+            alt="Mon parcours académique"
             loading="lazy"
           />
           </Grid>
@@ -125,7 +125,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%'}}
           image={tncy}
-          alt="green iguana"
+          alt="Télécom Nancy"
           loading="lazy"
         />
         </div>
@@ -146,7 +146,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%'}}
           image={iaenancy}
-          alt="green iguana"
+          alt="IAE Nancy"
           loading="lazy"
         />
         </div>
@@ -168,7 +168,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%'}}
           image={polimi}
-          alt="green iguana"
+          alt="Politecnico di Milano"
           loading="lazy"
         />
         </div>
@@ -199,7 +199,7 @@ export default function Learning() {
             component="img"
             sx={{width:'75%',pt:2}}
             image={courses}
-            alt="green iguana"
+            alt="Formations en ligne"
             loading="lazy"
           />
           </div>
@@ -236,7 +236,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%',pt:2}}
           image={linkedin}
-          alt="green iguana"
+          alt="LinkedIn"
           loading="lazy"
         />
         </div>
@@ -256,7 +256,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%',pt:2}}
           image={udacity}
-          alt="green iguana"
+          alt="Udacity"
           loading="lazy"
         />
         </div>
@@ -276,7 +276,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%',pt:2}}
           image={linkedin}
-          alt="green iguana"
+          alt="LinkedIn"
           loading="lazy"
         />
         </div>
@@ -296,7 +296,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%',pt:2}}
           image={mdp}
-          alt="green iguana"
+          alt="Mind The product"
           loading="lazy"
         />
         </div>
@@ -316,7 +316,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%',pt:2}}
           image={udacity}
-          alt="green iguana"
+          alt="Udacity"
           loading="lazy"
         />
         </div>
@@ -336,7 +336,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%',pt:2}}
           image={udemy}
-          alt="green iguana"
+          alt="Udemy"
           loading="lazy"
         />
         </div>
@@ -356,7 +356,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%',pt:2}}
           image={udemy}
-          alt="green iguana"
+          alt="Udemy"
           loading="lazy"
         />
         </div>
@@ -376,7 +376,7 @@ export default function Learning() {
           component="img"
           sx={{width:'75%',pt:2}}
           image={scrumleague}
-          alt="green iguana"
+          alt="Scrum league"
           loading="lazy"
         />
         </div>
@@ -408,7 +408,7 @@ export default function Learning() {
               component="img"
               image={books}
               sx={{width:'75%',pt:4}}
-              alt="green iguana"
+              alt="Livres"
               loading="lazy"
             />
             </div>
@@ -444,7 +444,7 @@ export default function Learning() {
             component="img"
             sx={{width:'75%'}}
             image={cdh}
-            alt="green iguana"
+            alt="Continuous Discovery Habits"
             loading="lazy"
           />
           </div>
@@ -464,7 +464,7 @@ export default function Learning() {
             component="img"
             sx={{width:'75%'}}
             image={dd}
-            alt="green iguana"
+            alt="Discovery Discipline"
             loading="lazy"
           />
           </div>
@@ -485,7 +485,7 @@ export default function Learning() {
             component="img"
             sx={{width:'75%'}}
             image={hooked}
-            alt="green iguana"
+            alt="Hooked"
             loading="lazy"
           />
           </div>
@@ -505,7 +505,7 @@ export default function Learning() {
             component="img"
             sx={{width:'75%'}}
             image={inspired}
-            alt="green iguana"
+            alt="Inspired"
             loading="lazy"
           />
           </div>
@@ -525,7 +525,7 @@ export default function Learning() {
             component="img"
             sx={{width:'75%'}}
             image={p2p}
-            alt="green iguana"
+            alt="Project to Product"
             loading="lazy"
           />
           </div>
