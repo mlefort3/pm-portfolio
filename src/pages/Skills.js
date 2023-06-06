@@ -27,7 +27,6 @@ import "animate.css/animate.min.css";
 import Button from '@mui/material/Button';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Accordion from '@mui/material/Accordion';
@@ -93,11 +92,6 @@ export default function Experiences() {
         </Typography>
       </CardContent>
       </Grid>
-      <Grid>
-      <CardActions>
-        <Button size="small" color="primary">Exemples d'utilisation</Button>
-      </CardActions>
-      </Grid>
     </Card>
     </Grid>
 
@@ -119,11 +113,6 @@ export default function Experiences() {
           Analyse de l'utilisation de la plateforme par les utilisateurs par le biais de 'heatmaps' et d'enregistrements vidéos des utilisations faites de l'interface.
         </Typography>
       </CardContent>
-      </Grid>
-      <Grid>
-      <CardActions>
-        <Button size="small" color="primary">Exemples d'utilisation</Button>
-      </CardActions>
       </Grid>
     </Card>
     </Grid>
@@ -147,11 +136,6 @@ export default function Experiences() {
           Analyse et visualisation de données via des requêtes simplifiées sur la base de données et la création de dashboards spécifiques au produit.
         </Typography>
       </CardContent>
-      </Grid>
-      <Grid>
-      <CardActions>
-        <Button size="small" color="primary">Exemples d'utilisation</Button>
-      </CardActions>
       </Grid>
     </Card>
     </Grid>
@@ -179,11 +163,6 @@ export default function Experiences() {
         </Typography>
       </CardContent>
       </Grid>
-      <Grid item>
-      <CardActions>
-        <Button size="small" color="primary">Exemples d'utilisation</Button>
-      </CardActions>
-      </Grid>
     </Card>
     </Grid>
 
@@ -203,9 +182,6 @@ export default function Experiences() {
         Analyse et visualisation de données via des requêtes SQL personnalisées. Création de dashboards permettant le suivi des objectifs produits 2023.
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small" color="primary">Exemples d'utilisation</Button>
-      </CardActions>
     </Card>
     </Grid>
 
@@ -227,9 +203,6 @@ export default function Experiences() {
           Analyse de données présentes en base de données via l'utilisation de requêtes SQL sur une base de données PostgreSQL.
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small" color="primary">Exemples d'utilisation</Button>
-      </CardActions>
     </Card>
     </Grid>
 
@@ -275,11 +248,6 @@ export default function Experiences() {
           </Typography>
         </CardContent>
         </Grid>
-        <Grid>
-        <CardActions>
-          <Button size="small" color="primary">Exemples d'utilisation</Button>
-        </CardActions>
-        </Grid>
       </Card>
       </Grid>
 
@@ -304,11 +272,6 @@ export default function Experiences() {
           </Typography>
         </CardContent>
         </Grid>
-        <Grid>
-        <CardActions>
-          <Button size="small" color="primary">Exemples d'utilisation</Button>
-        </CardActions>
-        </Grid>
       </Card>
       </Grid>
 
@@ -332,11 +295,6 @@ export default function Experiences() {
           </Typography>
         </CardContent>
         </Grid>
-        <Grid>
-        <CardActions>
-          <Button size="small" color="primary">Exemples d'utilisation</Button>
-        </CardActions>
-        </Grid>
       </Card>
       </Grid>
 
@@ -359,11 +317,6 @@ export default function Experiences() {
           </Typography>
         </CardContent>
         </Grid>
-        <Grid>
-        <CardActions>
-          <Button size="small" color="primary">Exemples d'utilisation</Button>
-        </CardActions>
-        </Grid>
       </Card>
       </Grid>
 
@@ -385,11 +338,6 @@ export default function Experiences() {
             Envoi de sondages en interne ou auprès d'utilisateurs du produit via Google Forms, Microsoft Forms ou Typeform pour le recueil de besoins utilisateurs.
           </Typography>
         </CardContent>
-        </Grid>
-        <Grid>
-        <CardActions>
-          <Button size="small" color="primary">Exemples d'utilisation</Button>
-        </CardActions>
         </Grid>
       </Card>
       </Grid>
@@ -437,11 +385,6 @@ export default function Experiences() {
             </Typography>
           </CardContent>
           </Grid>
-          <Grid>
-          <CardActions>
-            <Button size="small" color="primary">Exemples d'utilisation</Button>
-          </CardActions>
-          </Grid>
         </Card>
         </Grid>
 
@@ -466,11 +409,6 @@ export default function Experiences() {
             </Typography>
           </CardContent>
           </Grid>
-          <Grid>
-          <CardActions>
-            <Button size="small" color="primary">Exemples d'utilisation</Button>
-          </CardActions>
-          </Grid>
         </Card>
         </Grid>
 
@@ -494,11 +432,6 @@ export default function Experiences() {
             </Typography>
           </CardContent>
           </Grid>
-          <Grid>
-          <CardActions>
-            <Button size="small" color="primary">Exemples d'utilisation</Button>
-          </CardActions>
-          </Grid>
         </Card>
         </Grid>
 
@@ -520,11 +453,6 @@ export default function Experiences() {
               Utilisation et tests des APIs du produit via le logiciel Postman.
             </Typography>
           </CardContent>
-          </Grid>
-          <Grid>
-          <CardActions>
-            <Button size="small" color="primary">Exemples d'utilisation</Button>
-          </CardActions>
           </Grid>
         </Card>
         </Grid>
@@ -549,11 +477,6 @@ export default function Experiences() {
             </Typography>
           </CardContent>
           </Grid>
-          <Grid>
-          <CardActions>
-            <Button size="small" color="primary">Exemples d'utilisation</Button>
-          </CardActions>
-          </Grid>
         </Card>
         </Grid>
 
@@ -576,11 +499,6 @@ export default function Experiences() {
               Réalisation des tests fonctionnels sur les nouvelles fonctionnalités et lors des mises à jour du produit, réalisés sur des environnements à la demande ou de test.
             </Typography>
           </CardContent>
-          </Grid>
-          <Grid>
-          <CardActions>
-            <Button size="small" color="primary">Exemples d'utilisation</Button>
-          </CardActions>
           </Grid>
         </Card>
         </Grid>
@@ -626,11 +544,6 @@ export default function Experiences() {
               </Typography>
             </CardContent>
             </Grid>
-            <Grid>
-            <CardActions>
-              <Button size="small" color="primary">Exemples d'utilisation</Button>
-            </CardActions>
-            </Grid>
           </Card>
           </Grid>
 
@@ -654,11 +567,6 @@ export default function Experiences() {
               </Typography>
             </CardContent>
             </Grid>
-            <Grid>
-            <CardActions>
-              <Button size="small" color="primary">Exemples d'utilisation</Button>
-            </CardActions>
-            </Grid>
           </Card>
           </Grid>
 
@@ -680,11 +588,6 @@ export default function Experiences() {
               Communication et recueil de retours en interne via Slack : dernières fonctionnalités, annonces de plans de déploiements, etc.
               </Typography>
             </CardContent>
-            </Grid>
-            <Grid>
-            <CardActions>
-              <Button size="small" color="primary">Exemples d'utilisation</Button>
-            </CardActions>
             </Grid>
           </Card>
           </Grid>
