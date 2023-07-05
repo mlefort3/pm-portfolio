@@ -8,6 +8,8 @@ import peopledocukg from './../peopledocukg.webp'
 import logolrqdo from './../logoLRQDO.webp';
 import security from './../security.webp';
 import bnpparibas from './../bnp-paribas-logo.webp';
+import logocarbo from './../logo_carbo.webp';
+import illucarbo from './../illu_carbo.webp';
 import Copyright from './../components/Copyright';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import List from '@mui/material/List';
@@ -25,6 +27,84 @@ export default function Experiences() {
     <div>
     <Grid container justifyContent="center" spacing="3">
     <Grid item md={9} xs={12} sx={{mx:{xs:2,md:5}}}>
+    <Paper sx={{pt:6,px:{xs:2,md:6},mt:6,borderRadius:4}}>
+      <Grid item md={12} container direction="row" spacing={6}>
+      <Grid item container md={4} direction="column"
+    justifyContent="center"
+    alignItems="center" sx={{justifyContent: 'center', alignItems:'center', display: { xs:'flex', md: 'none' }}}>
+        <img src={illucarbo} width='100%' alt="Système de Carbo" loading='lazy' />
+        <img src={logocarbo} width='100%' alt="Logo de Carbo" loading='lazy' />
+
+      </Grid>
+
+
+      <Grid item md={8}>
+      <Typography color="#005151" component="h3" variant="h5" gutterBottom sx={{textAlign:"left",fontWeight:"bold",pt:2}}>
+        Product Manager - Carbo
+      </Typography>
+      <List>
+            <ListItem>
+              <ListItemIcon>
+                <DateRangeIcon />
+              </ListItemIcon>
+              <ListItemText
+                primary="Expérience en cours"
+                secondary="Juin 2023 - Aujourd'hui"
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <WorkIcon />
+              </ListItemIcon>
+              <ListItemText
+                primary="Product Manager sur les sujets d'activation et de rétention"
+                secondary='Gestion des applications B2B et B2C de Carbo'
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <RocketLaunchIcon />
+              </ListItemIcon>
+              <ListItemText
+                primary="Création et lancement d'un nouveau produit"
+                secondary="Phase de recherche utilisateur, pricing du produit, recherche de market-fit, accompagnement des clients et déploiement"
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <RocketLaunchIcon />
+              </ListItemIcon>
+              <ListItemText
+                primary="Analyse des données utilisateurs"
+                secondary="Création de dashboard, suivis de KPIs de 2023 et mesure d'adoption des dernières fonctionnalités via des requêtes SQL."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <RocketLaunchIcon />
+              </ListItemIcon>
+              <ListItemText
+                primary="Gestion complète du cycle de vie produit"
+                secondary="Analyse des retours utilisateurs, ateliers de priorisation RICE avec les équipes opérationnelles, recherche et spécifications des solutions avec l'équipe de développement et le design, tests fonctionnels, communication des nouveautés produits et analyse des données utilisateurs."
+              />
+            </ListItem>
+        </List>
+      </Grid>
+
+
+      <Grid item container md={4} direction="column"
+    justifyContent="center"
+    alignItems="center" sx={{justifyContent: 'center', alignItems:'center', width: '100%',display: { xs:'none', md: 'flex' }}}>
+      <img src={illucarbo} width='100%' alt="Système de Carbo" loading='lazy' />
+      <img src={logocarbo} width='100%' alt="Logo de Carbo" loading='lazy' />
+      </Grid>
+
+      </Grid>
+    </Paper>
+    </Grid>
+
+    <Grid item md={9} xs={12} sx={{mx:{xs:2,md:5}}}>
+    <AnimationOnScroll animateIn="animate__bounceIn" >
     <Paper sx={{pt:6,px:{xs:2,md:6},mt:6,borderRadius:4}}>
       <Grid item md={12} container direction="row" spacing={6}>
         <Grid item  md={4} sx={{justifyContent: 'center', alignItems:'center', width: '100%'}}>
@@ -84,6 +164,7 @@ export default function Experiences() {
         </Grid>
       </Grid>
     </Paper>
+    </AnimationOnScroll>
     </Grid>
 
 

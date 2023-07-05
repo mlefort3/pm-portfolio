@@ -28,6 +28,7 @@ import dd from './../dd.webp';
 import hooked from './../hooked.webp';
 import inspired from './../inspired.webp';
 import p2p from './../p2p.webp';
+import eightytwenty from './../8020.webp';
 
 
 interface ExpandMoreProps extends IconButtonProps {
@@ -536,6 +537,26 @@ export default function Learning() {
           </Typography>
           <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
             Project to Product: How to Survive and Thrive in the Age of Digital Disruption with the Flow Framework <br/> De Mik Kersten
+          </Typography>
+          </Grid>
+
+          <Grid item md={3}>
+          <div align='center'>
+          <CardMedia
+            component="img"
+            sx={{width:'75%'}}
+            image={eightytwenty}
+            alt="The 80/20 Manager"
+            loading="lazy"
+          />
+          </div>
+          </Grid>
+          <Grid item md={9} container direction="column">
+          <Typography color="black" gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
+            The 80/20 Manager
+          </Typography>
+          <Typography variant={"body"} color="text.secondary" sx={{textAlign:'left'}}>
+            The 80/20 Manager: Ten ways to become a great leader <br/> De Richard Koch
           </Typography>
           </Grid>
 
