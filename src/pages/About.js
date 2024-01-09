@@ -37,7 +37,7 @@ export default function About() {
           D'abord passé par PeopleDoc/UKG durant 2 ans et demi pour travailler sur des produits RH en SaaS,
           j'ai ensuite rejoint La Ruche Qui Dit Oui en tant que Product Manager pour les produits B2B.
           <br/>Malgré la courte durée de cette dernière expérience, j'y ai beaucoup appris !<br/><br/>
-          Je recherche maintenant une nouvelle expérience à partir de la mi-mai 2023.
+          Je travaille maintenant chez Carbo, depuis mi-mai 2023.
         </Typography>
       </AccordionDetails>
     </Accordion>
