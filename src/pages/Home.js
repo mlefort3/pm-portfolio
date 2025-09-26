@@ -127,7 +127,7 @@ const Home = () => {
           <Grid item xs={6} md={2} sx={{ maxWidth: 445, borderRadius:"5%", boxShadow: 1, '&:hover': {
             boxShadow: "3"}}}>
           <Typography component="div" variant={"h5"} align="center" gutterBottom sx={{color:'#f8f8f8',fontWeight:'bold'}}>
-          <Typography component="div" variant={"h5"} sx={{color:'secondary.main',fontWeight:'bold'}}>3,5 ans d'expérience
+          <Typography component="div" variant={"h5"} sx={{color:'secondary.main',fontWeight:'bold'}}>6 ans d'expérience
           </Typography> dans le product management.
           </Typography>
           </Grid>
@@ -135,7 +135,7 @@ const Home = () => {
           <Grid item xs={6} md={2} sx={{ maxWidth: 445, borderRadius:"5%", boxShadow: 1, '&:hover': {
             boxShadow: "3"}}}>
             <Typography component="div" variant={"h5"} align="center" gutterBottom sx={{color:'#f8f8f8',fontWeight:'bold'}}>
-            <Typography component="div" variant={"h5"} sx={{color:'secondary.main',fontWeight:'bold'}}>4 produits
+            <Typography component="div" variant={"h5"} sx={{color:'secondary.main',fontWeight:'bold'}}>6 produits
             </Typography> gérés en B2B, B2C et B2B2C.
             </Typography>
           </Grid>
