@@ -33,7 +33,7 @@ export default function About() {
       </AccordionSummary>
       <AccordionDetails >
         <Typography textAlign='justify'>
-          Je m'appelle Maxence, et je suis Product Manager depuis plus de 3 ans maintenant.
+          Je m'appelle Maxence, et je suis Product Manager depuis plus de 6 ans maintenant.
           D'abord passé par PeopleDoc/UKG durant 2 ans et demi pour travailler sur des produits RH en SaaS,
           j'ai ensuite rejoint La Ruche Qui Dit Oui en tant que Product Manager pour les produits B2B.
           <br/>Malgré la courte durée de cette dernière expérience, j'y ai beaucoup appris !<br/><br/>
