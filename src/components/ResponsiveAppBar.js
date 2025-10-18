@@ -152,7 +152,7 @@ const ResponsiveAppBar = () => {
 
           <div>
           <Tooltip title="Mon CV">
-            <IconButton aria-label="Mon CV" sx={{mr:{xs:1,md:2},backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://cloud.leviia.com/s/ZnIy.5fYHRqNwMtXXqfQ">
+            <IconButton aria-label="Mon CV" sx={{mr:{xs:1,md:2},backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://maxencelefort-drive.mycozy.cloud/public?sharecode=vKOcinnlFbQ8">
                 <DescriptionIcon tabindex='0' alt="Icône de CV"/>
             </IconButton>
           </Tooltip>
