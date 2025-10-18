@@ -49,7 +49,7 @@ export default function Experiences() {
               </ListItemIcon>
               <ListItemText
                 primary="Expérience en cours"
-                secondary="Juin 2023 - Aujourd'hui"
+                secondary="Mai 2023 - Aujourd'hui"
               />
             </ListItem>
             <ListItem>
