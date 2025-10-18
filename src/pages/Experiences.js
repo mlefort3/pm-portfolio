@@ -76,7 +76,7 @@ export default function Experiences() {
               </ListItemIcon>
               <ListItemText
                 primary="Analyse des données utilisateurs"
-                secondary="Création de dashboard, suivis de KPIs de 2023 et mesure d'adoption des dernières fonctionnalités via des requêtes SQL."
+                secondary="Création de dashboard, suivis de KPIs et mesure d'adoption des dernières fonctionnalités via des requêtes SQL."
               />
             </ListItem>
             <ListItem>
@@ -86,6 +86,33 @@ export default function Experiences() {
               <ListItemText
                 primary="Gestion complète du cycle de vie produit"
                 secondary="Analyse des retours utilisateurs, ateliers de priorisation RICE avec les équipes opérationnelles, recherche et spécifications des solutions avec l'équipe de développement et le design, tests fonctionnels, communication des nouveautés produits et analyse des données utilisateurs."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <RocketLaunchIcon />
+              </ListItemIcon>
+              <ListItemText
+                primary="Utilisation d'outils no-code"
+                secondary=" Mise en place d’outils no-code pour générer rapidement des livrables."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <RocketLaunchIcon />
+              </ListItemIcon>
+              <ListItemText
+                primary="Sujets stratégiques"
+                secondary="Participation à l’équipe en charge de l’élaboration et du pilotage de la stratégie de l’entreprise."
+              />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <RocketLaunchIcon />
+              </ListItemIcon>
+              <ListItemText
+                primary="Élu CSE"
+                secondary="Depuis début 2025."
               />
             </ListItem>
         </List>
