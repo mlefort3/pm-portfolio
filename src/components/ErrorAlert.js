@@ -4,7 +4,7 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Snackbar from '@mui/material/Snackbar';
 
-export default function SuccessAlert({message}) {
+export default function ErrorAlert({message}) {
   const [open, setOpen] = React.useState(true);
 
   const handleClose = () => {
@@ -14,7 +14,7 @@ export default function SuccessAlert({message}) {
   return (
     <div>
     <Snackbar open={open} onClose={handleClose} anchorOrigin={{ vertical:"top", horizontal:"center" }}>
-      <Alert onClose={handleClose} severity="error" sx={{ width: '100%', mb:2 }} action={
+      <Alert onClose={handleClose} severity="error" variant="filled" sx={{ width: '100%', mb:2 }} action={
             <IconButton
               aria-label="close"
               color="inherit"

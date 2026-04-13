@@ -55,10 +55,10 @@ const ResponsiveAppBar = () => {
 
   return (
     <ThemeProvider theme={theme}>
-    <AppBar position="static">
+    <AppBar position="static" color="transparent" elevation={0} sx={{borderBottom: '1px solid rgba(47,91,79,0.06)', bgcolor: 'background.paper'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-        <Box className="App-Box" sx={{ cursor:'pointer', display: { xs: 'none', md: 'flex' }}}>
+          <Box className="App-Box" sx={{ cursor:'pointer', display: { xs: 'none', md: 'flex' }}}>
         <Link to="/">
           <img src={profile} className="App-Logo" loading='lazy' alt="Maxence Lefort"/>
         </Link>
@@ -67,7 +67,7 @@ const ResponsiveAppBar = () => {
             noWrap
             component="a"
             href="/"
-            color='secondary'
+              color='primary'
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -125,7 +125,7 @@ const ResponsiveAppBar = () => {
             noWrap
             component="a"
             href="/"
-            color='secondary'
+            color='primary'
             sx={{
               mr: 0,
               display: { xs: 'flex', md: 'none' },
@@ -143,7 +143,7 @@ const ResponsiveAppBar = () => {
               <Button
                 key={page}
                 onClick={() => navigate(`${getNavPage(page)}`)}
-                sx={{my: 2, color: 'white', display: 'block' }}
+                sx={{my: 2, color: 'text.primary', display: 'block' }}
               >
               {page}
               </Button>
@@ -152,15 +152,15 @@ const ResponsiveAppBar = () => {
 
           <div>
           <Tooltip title="Mon CV">
-            <IconButton aria-label="Mon CV" sx={{mr:{xs:1,md:2},backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://maxencelefort-drive.mycozy.cloud/public?sharecode=KX9BiMQxzAFU">
-                <DescriptionIcon tabindex='0' alt="Icône de CV"/>
+            <IconButton aria-label="Mon CV" sx={{mr:{xs:1,md:2},bgcolor:'background.paper',border:'1px solid rgba(16,24,24,0.06)',"&:hover": { transform: 'translateY(-2px)', boxShadow: '0 6px 18px rgba(16,24,24,0.08)' }}} target="_blank" href="https://maxencelefort-drive.mycozy.cloud/public?sharecode=KX9BiMQxzAFU">
+                <DescriptionIcon tabIndex={0} />
             </IconButton>
           </Tooltip>
           </div>
 
           <Tooltip title="Mon profil LinkedIn">
-            <IconButton aria-label="Mon profil LinkedIn" sx={{backgroundColor:'white',"&:hover": { color: "#d4d4d4" }}} target="_blank" href="https://www.linkedin.com/in/maxence-lefort/">
-                <LinkedInIcon tabindex='0' alt="Icône LinkedIn"/>
+            <IconButton aria-label="Mon profil LinkedIn" sx={{bgcolor:'background.paper',border:'1px solid rgba(16,24,24,0.06)',"&:hover": { transform: 'translateY(-2px)', boxShadow: '0 6px 18px rgba(16,24,24,0.08)' }}} target="_blank" href="https://www.linkedin.com/in/maxence-lefort/">
+                <LinkedInIcon tabIndex={0} />
             </IconButton>
           </Tooltip>
 

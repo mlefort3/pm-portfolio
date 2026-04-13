@@ -34,10 +34,10 @@ const Home = () => {
                     pr: { md: 0 },
                   }}
                 >
-                <Typography color="#384b42" component={"div"} variant={"h3"} gutterBottom sx={{textAlign:"left",fontWeight:"bold"}}>
+                <Typography component={"div"} variant={"h3"} gutterBottom sx={{textAlign:"left",fontWeight:"bold", color: 'primary.main'}}>
                   Hello 👋
                 </Typography>
-                  <Typography component="div" variant={"h5"} color="#384b42" paragraph sx={{textAlign:"justify",fontWeight:"bold"}}>
+                  <Typography component="div" variant={"h5"} paragraph sx={{textAlign:"justify",fontWeight:"bold", color: 'primary.main'}}>
                     Bienvenue sur ma page !
                   </Typography>
                 </Box>
@@ -49,7 +49,7 @@ const Home = () => {
           <Grid container spacing={1} sx={{p:5}} justifyContent="space-evenly" alignItems="center">
 
           <Grid item xs={12} md={3}>
-            <Card className="Homecard" sx={{ maxWidth: 445, border: 1, borderColor:"secondary", borderRadius:"5%", boxShadow: 3, '&:hover': {
+              <Card className="Homecard" sx={{ maxWidth: 445, border: 1, borderColor:'secondary.main', borderRadius:"5%", boxShadow: 3, '&:hover': {
        boxShadow: "10"}}}>
               <CardActionArea id="experienceCard" component={Link} to="/experiences/" >
                 <CardMedia
@@ -72,7 +72,7 @@ const Home = () => {
             </Grid>
 
           <Grid item xs={12} md={3} >
-          <Card className="Homecard" sx={{ maxWidth: 445, border: 1, borderColor:"secondary", borderRadius:"5%", boxShadow: 3, '&:hover': {
+          <Card className="Homecard" sx={{ maxWidth: 445, border: 1, borderColor:'secondary.main', borderRadius:"5%", boxShadow: 3, '&:hover': {
             boxShadow: "10"}}}>
               <CardActionArea component={Link} to="/competences/">
                 <CardMedia
@@ -95,7 +95,7 @@ const Home = () => {
             </Grid>
 
             <Grid item xs={12} md={3} >
-            <Card className="Homecard" sx={{ maxWidth: 445, border: 1, borderColor:"secondary", borderRadius:"5%", boxShadow: 3, '&:hover': {
+            <Card className="Homecard" sx={{ maxWidth: 445, border: 1, borderColor:'secondary.main', borderRadius:"5%", boxShadow: 3, '&:hover': {
               boxShadow: "10"}}}>
                 <CardActionArea component={Link} to="/formations/">
                   <CardMedia
