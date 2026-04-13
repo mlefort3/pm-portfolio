@@ -127,7 +127,7 @@ const Home = () => {
           <Grid item xs={6} md={2} sx={{ maxWidth: 445, borderRadius:"5%", boxShadow: 1, '&:hover': {
             boxShadow: "3"}}}>
           <Typography component="div" variant={"h5"} align="center" gutterBottom sx={{color:'#f8f8f8',fontWeight:'bold'}}>
-          <Typography component="div" variant={"h5"} sx={{color:'secondary.main',fontWeight:'bold'}}>6 ans d'expérience
+          <Typography component="div" variant={"h5"} sx={{color:'secondary.main',fontWeight:'bold'}}>7 ans d'expérience
           </Typography> dans le product management.
           </Typography>
           </Grid>
@@ -143,8 +143,8 @@ const Home = () => {
           <Grid item xs={6} md={2} sx={{ maxWidth: 445, borderRadius:"5%", boxShadow: 1, '&:hover': {
             boxShadow: "3"}}}>
             <Typography component="div" variant={"h5"} align="center" gutterBottom sx={{color:'#f8f8f8',fontWeight:'bold'}}>
-            <Typography component="div" variant={"h5"} sx={{color:'secondary.main',fontWeight:'bold'}}>10 formations
-            </Typography> en ligne suivies sur les 2 dernières années.
+            <Typography component="div" variant={"h5"} sx={{color:'secondary.main',fontWeight:'bold'}}>10+ formations
+            </Typography> en ligne suivies.
             </Typography>
           </Grid>
           <Divider  sx={{ display: { xs: 'none', md: 'block' },background:'white' }} orientation="vertical" flexItem/>

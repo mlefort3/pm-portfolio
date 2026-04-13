@@ -33,11 +33,12 @@ export default function About() {
       </AccordionSummary>
       <AccordionDetails >
         <Typography textAlign='justify'>
-          Je m'appelle Maxence, et je suis Product Manager depuis plus de 6 ans maintenant.
+          Je m'appelle Maxence, et je suis Product Manager depuis plus de 7 ans maintenant.
           D'abord passé par PeopleDoc/UKG durant 2 ans et demi pour travailler sur des produits RH en SaaS,
           j'ai ensuite rejoint La Ruche Qui Dit Oui en tant que Product Manager pour les produits B2B.
           <br/>Malgré la courte durée de cette dernière expérience, j'y ai beaucoup appris !<br/><br/>
-          Je travaille maintenant chez Carbo, depuis mi-mai 2023.
+          J'ai ensuité travaillé chez Carbo, de mi-mai 2023 à Janvier 2026. 
+          Je recherche maintenant une nouvelle opportunité à partir de Septembre 2026.
         </Typography>
       </AccordionDetails>
     </Accordion>

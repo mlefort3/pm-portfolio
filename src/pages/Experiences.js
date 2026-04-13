@@ -49,7 +49,7 @@ export default function Experiences() {
               </ListItemIcon>
               <ListItemText
                 primary="Expérience en cours"
-                secondary="Mai 2023 - Aujourd'hui"
+                secondary="Mai 2023 - Janvier 2026"
               />
             </ListItem>
             <ListItem>
@@ -57,8 +57,8 @@ export default function Experiences() {
                 <WorkIcon />
               </ListItemIcon>
               <ListItemText
-                primary="Product Manager sur les sujets d'activation et de rétention"
-                secondary='Gestion des applications B2B et B2C de Carbo'
+                primary="Product Manager sur les sujets d'adoption et de rétention"
+                secondary='Gestion des applications B2B de Carbo'
               />
             </ListItem>
             <ListItem>
@@ -104,15 +104,6 @@ export default function Experiences() {
               <ListItemText
                 primary="Sujets stratégiques"
                 secondary="Participation à l’équipe en charge de l’élaboration et du pilotage de la stratégie de l’entreprise."
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <RocketLaunchIcon />
-              </ListItemIcon>
-              <ListItemText
-                primary="Élu CSE"
-                secondary="Depuis début 2025."
               />
             </ListItem>
         </List>
